@@ -1,0 +1,326 @@
+******************************************************************************
+                  TI ARM Linker PC v18.12.3                    
+******************************************************************************
+>> Linked Wed Jan 29 05:09:38 2020
+
+OUTPUT FILE NAME:   <20P13_ST7735.out>
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00001f09
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00040000  00002645  0003d9bb  R  X
+  SRAM                  20000000   00008000  00000216  00007dea  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    0000264c   0000264c    r-x
+  00000000    00000000    0000026c   0000026c    r-- .intvecs
+  0000026c    0000026c    00001d96   00001d96    r-x .text
+  00002004    00002004    0000062f   0000062f    r-- .const
+  00002638    00002638    00000014   00000014    r-- .cinit
+20000000    20000000    00000216   00000000    rw-
+  20000000    20000000    00000200   00000000    rw- .stack
+  20000200    20000200    00000016   00000000    rw- .bss
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    0000026c     
+                  00000000    0000026c     tm4c123gh6pm_startup_ccs.obj (.intvecs)
+
+.text      0    0000026c    00001d96     
+                  0000026c    00001878     ST7735.obj (.text)
+                  00001ae4    00000132     driverlib.lib : gpio.obj (.text:GPIOPadConfigSet)
+                  00001c16    00000002     --HOLE-- [fill = 0]
+                  00001c18    00000110                   : sysctl.obj (.text:SysCtlClockGet)
+                  00001d28    000000e4     main.obj (.text)
+                  00001e0c    00000048     driverlib.lib : gpio.obj (.text:GPIOPinConfigure)
+                  00001e54    00000044     rtsv7M4_T_le_v4SPD16_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  00001e98    0000003c     driverlib.lib : ssi.obj (.text:SSIConfigSetExpClk)
+                  00001ed4    00000034                   : sysctl.obj (.text:SysCtlPeripheralEnable)
+                  00001f08    00000034     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
+                  00001f3c    0000002a     driverlib.lib : gpio.obj (.text:GPIODirModeSet)
+                  00001f66    0000001c     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init_nomemset:__TI_zero_init_nomemset)
+                  00001f82    0000001a     delay.obj (.text)
+                  00001f9c    00000018     driverlib.lib : gpio.obj (.text:GPIOPinTypeGPIOOutput)
+                  00001fb4    00000012                   : gpio.obj (.text:GPIOPinTypeSSI)
+                  00001fc6    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
+                  00001fd2    0000000a     driverlib.lib : ssi.obj (.text:SSIDataPut)
+                  00001fdc    0000000a                   : ssi.obj (.text:SSIEnable)
+                  00001fe6    00000008                   : ssi.obj (.text:SSIBusy)
+                  00001fee    00000006                   : gpio.obj (.text:GPIOPinWrite)
+                  00001ff4    00000006                   : sysctl.obj (.text:SysCtlDelay)
+                  00001ffa    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
+                  00001ffe    00000004                                   : exit.c.obj (.text:abort:abort)
+
+.const     0    00002004    0000062f     
+                  00002004    000004fb     ST7735.obj (.const:.string:font)
+                  000024ff    00000001     --HOLE-- [fill = 0]
+                  00002500    00000090     driverlib.lib : gpio.obj (.const:g_pui32GPIOBaseAddrs)
+                  00002590    0000006c                   : sysctl.obj (.const:g_pui32Xtals)
+                  000025fc    00000037     ST7735.obj (.const:.string:initCommands)
+
+.cinit     0    00002638    00000014     
+                  00002638    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  00002640    00000004     (__TI_handler_table)
+                  00002644    00000008     (__TI_cinit_table)
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.bss       0    20000200    00000016     UNINITIALIZED
+                  20000200    00000004     (.common:height)
+                  20000204    00000004     (.common:width)
+                  20000208    00000002     (.common:cursor_x)
+                  2000020a    00000002     (.common:cursor_y)
+                  2000020c    00000002     (.common:textbgcolour)
+                  2000020e    00000002     (.common:textcolour)
+                  20000210    00000002     (.common:wrap)
+                  20000212    00000001     (.common:colstart)
+                  20000213    00000001     (.common:rotation)
+                  20000214    00000001     (.common:rowstart)
+                  20000215    00000001     (.common:textsize)
+
+.stack     0    20000000    00000200     UNINITIALIZED
+                  20000000    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.stack)
+                  20000004    000001fc     --HOLE--
+
+MODULE SUMMARY
+
+       Module                         code   ro data   rw data
+       ------                         ----   -------   -------
+    .\
+       ST7735.obj                     6264   1330      22     
+       tm4c123gh6pm_startup_ccs.obj   12     620       0      
+       main.obj                       228    0         0      
+       delay.obj                      26     0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         6530   1950      22     
+                                                              
+    C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib
+       gpio.obj                       468    144       0      
+       sysctl.obj                     330    108       0      
+       ssi.obj                        88     0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         886    252       0      
+                                                              
+    C:\ti\ccs901\ccs\tools\compiler\ti-cgt-arm_18.12.3.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
+       autoinit.c.obj                 68     0         0      
+       boot_cortex_m.c.obj            52     0         0      
+       copy_zero_init.c.obj           28     0         0      
+       exit.c.obj                     4      0         0      
+       pre_init.c.obj                 4      0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         156    0         0      
+                                                              
+       Stack:                         0      0         512    
+       Linker Generated:              0      20        0      
+    +--+------------------------------+------+---------+---------+
+       Grand Total:                   7572   2222      534    
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 00002644 records: 1, size/record: 8, table size: 8
+	.bss: load addr=00002638, load size=00000008 bytes, run addr=20000200, run size=00000016 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 00002640 records: 1, size/record: 4, table size: 4
+	index: 0, handler: __TI_zero_init
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                          
+-------   ----                          
+00001fff  C$$EXIT                       
+0000084f  Colour565                     
+00001f3d  GPIODirModeSet                
+00001ae5  GPIOPadConfigSet              
+00001e0d  GPIOPinConfigure              
+00001f9d  GPIOPinTypeGPIOOutput         
+00001fb5  GPIOPinTypeSSI                
+00001fef  GPIOPinWrite                  
+00000371  LcdInit                       
+00001fc7  ResetISR                      
+00001fe7  SSIBusy                       
+00001e99  SSIConfigSetExpClk            
+00001fd3  SSIDataPut                    
+00001fdd  SSIEnable                     
+00001c19  SysCtlClockGet                
+00001ff5  SysCtlDelay                   
+00001ed5  SysCtlPeripheralEnable        
+20000200  __STACK_END                   
+00000200  __STACK_SIZE                  
+20000200  __STACK_TOP                   
+00002644  __TI_CINIT_Base               
+0000264c  __TI_CINIT_Limit              
+00002640  __TI_Handler_Table_Base       
+00002644  __TI_Handler_Table_Limit      
+00001e55  __TI_auto_init_nobinit_nopinit
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+00000000  __TI_static_base__            
+00001f67  __TI_zero_init_nomemset       
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+UNDEFED   __mpu_init                    
+20000000  __stack                       
+00001f09  _c_int00_noargs               
+UNDEFED   _system_post_cinit            
+00001ffb  _system_pre_init              
+00001fff  abort                         
+ffffffff  binit                         
+20000212  colstart                      
+000002d9  commandList                   
+20000208  cursor_x                      
+2000020a  cursor_y                      
+00001f83  delay_ms                      
+00001643  drawBitmap                    
+000018bf  drawChar                      
+00000931  drawCircle                    
+00000b39  drawCircleHelper              
+00000645  drawFastHLine                 
+0000058d  drawFastVLine                 
+00000eb3  drawLine                      
+0000052b  drawPixel                     
+00001021  drawRect                      
+00001093  drawRoundRect                 
+000017cf  drawString                    
+000012c5  drawTriangle                  
+00001715  drawXBitmap                   
+00000ced  fillCircle                    
+00000d47  fillCircleHelper              
+00000739  fillRect                      
+00001209  fillRoundRect                 
+000006f3  fillScreen                    
+00001325  fillTriangle                  
+00000000  g_pfnVectors                  
+20000200  height                        
+0000090f  invertDisplay                 
+00001d29  main                          
+00001d59  main1                         
+00000503  pushColour                    
+20000213  rotation                      
+20000214  rowstart                      
+0000047d  setAddrWindow                 
+00001a4b  setCursor                     
+00000883  setRotation                   
+00001a8b  setTextColour                 
+00001a6b  setTextSize                   
+00001aab  setTextWrap                   
+0000026d  spiWrite                      
+00000457  swapColour                    
+2000020c  textbgcolour                  
+2000020e  textcolour                    
+20000215  textsize                      
+20000204  width                         
+20000210  wrap                          
+000002a1  writeCommand                  
+000002bd  writeData                     
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                          
+-------   ----                          
+00000000  __TI_static_base__            
+00000000  g_pfnVectors                  
+00000200  __STACK_SIZE                  
+0000026d  spiWrite                      
+000002a1  writeCommand                  
+000002bd  writeData                     
+000002d9  commandList                   
+00000371  LcdInit                       
+00000457  swapColour                    
+0000047d  setAddrWindow                 
+00000503  pushColour                    
+0000052b  drawPixel                     
+0000058d  drawFastVLine                 
+00000645  drawFastHLine                 
+000006f3  fillScreen                    
+00000739  fillRect                      
+0000084f  Colour565                     
+00000883  setRotation                   
+0000090f  invertDisplay                 
+00000931  drawCircle                    
+00000b39  drawCircleHelper              
+00000ced  fillCircle                    
+00000d47  fillCircleHelper              
+00000eb3  drawLine                      
+00001021  drawRect                      
+00001093  drawRoundRect                 
+00001209  fillRoundRect                 
+000012c5  drawTriangle                  
+00001325  fillTriangle                  
+00001643  drawBitmap                    
+00001715  drawXBitmap                   
+000017cf  drawString                    
+000018bf  drawChar                      
+00001a4b  setCursor                     
+00001a6b  setTextSize                   
+00001a8b  setTextColour                 
+00001aab  setTextWrap                   
+00001ae5  GPIOPadConfigSet              
+00001c19  SysCtlClockGet                
+00001d29  main                          
+00001d59  main1                         
+00001e0d  GPIOPinConfigure              
+00001e55  __TI_auto_init_nobinit_nopinit
+00001e99  SSIConfigSetExpClk            
+00001ed5  SysCtlPeripheralEnable        
+00001f09  _c_int00_noargs               
+00001f3d  GPIODirModeSet                
+00001f67  __TI_zero_init_nomemset       
+00001f83  delay_ms                      
+00001f9d  GPIOPinTypeGPIOOutput         
+00001fb5  GPIOPinTypeSSI                
+00001fc7  ResetISR                      
+00001fd3  SSIDataPut                    
+00001fdd  SSIEnable                     
+00001fe7  SSIBusy                       
+00001fef  GPIOPinWrite                  
+00001ff5  SysCtlDelay                   
+00001ffb  _system_pre_init              
+00001fff  C$$EXIT                       
+00001fff  abort                         
+00002640  __TI_Handler_Table_Base       
+00002644  __TI_CINIT_Base               
+00002644  __TI_Handler_Table_Limit      
+0000264c  __TI_CINIT_Limit              
+20000000  __stack                       
+20000200  __STACK_END                   
+20000200  __STACK_TOP                   
+20000200  height                        
+20000204  width                         
+20000208  cursor_x                      
+2000020a  cursor_y                      
+2000020c  textbgcolour                  
+2000020e  textcolour                    
+20000210  wrap                          
+20000212  colstart                      
+20000213  rotation                      
+20000214  rowstart                      
+20000215  textsize                      
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+ffffffff  binit                         
+UNDEFED   __mpu_init                    
+UNDEFED   _system_post_cinit            
+
+[86 symbols]
