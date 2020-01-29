@@ -2,6 +2,7 @@
 *.d linguist-detectable=true
 
 Makefile linguist-language=C
+makefile linguist-language=C
 
 # Object files
 *.o linguist-detectable=true
