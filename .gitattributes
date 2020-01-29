@@ -1,7 +1,7 @@
 # Prerequisites
 *.d linguist-detectable=true
 
-*.in linguist-language=C
+makefile linguist-language=C
 
 # Object files
 *.o linguist-detectable=true
