@@ -1,17 +1,17 @@
 ******************************************************************************
                   TI ARM Linker PC v18.12.4                    
 ******************************************************************************
->> Linked Thu Jan 23 17:58:18 2020
+>> Linked Wed Jan 29 14:33:11 2020
 
 OUTPUT FILE NAME:   <20P04_I2C.out>
-ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00000a91
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 00000ad5
 
 
 MEMORY CONFIGURATION
 
          name            origin    length      used     unused   attr    fill
 ----------------------  --------  ---------  --------  --------  ----  --------
-  FLASH                 00000000   00040000  00000cae  0003f352  R  X
+  FLASH                 00000000   00040000  00000cc2  0003f33e  R  X
   SRAM                  20000000   00008000  0000020c  00007df4  RW X
 
 
@@ -19,11 +19,11 @@ SEGMENT ALLOCATION MAP
 
 run origin  load origin   length   init length attrs members
 ----------  ----------- ---------- ----------- ----- -------
-00000000    00000000    00000cb4   00000cb4    r-x
+00000000    00000000    00000cc4   00000cc4    r-x
   00000000    00000000    0000026c   0000026c    r-- .intvecs
-  0000026c    0000026c    00000932   00000932    r-x .text
-  00000ba0    00000ba0    000000fc   000000fc    r-- .const
-  00000ca0    00000ca0    00000014   00000014    r-- .cinit
+  0000026c    0000026c    00000946   00000946    r-x .text
+  00000bb4    00000bb4    000000fc   000000fc    r-- .const
+  00000cb0    00000cb0    00000014   00000014    r-- .cinit
 20000000    20000000    0000020c   00000000    rw-
   20000000    20000000    00000200   00000000    rw- .stack
   20000200    20000200    0000000c   00000000    rw- .bss
@@ -37,7 +37,7 @@ section   page    origin      length       input sections
 .intvecs   0    00000000    0000026c     
                   00000000    0000026c     tm4c123gh6pm_startup_ccs.obj (.intvecs)
 
-.text      0    0000026c    00000932     
+.text      0    0000026c    00000946     
                   0000026c    000002a4     InitI2C.obj (.text)
                   00000510    00000132     driverlib.lib : gpio.obj (.text:GPIOPadConfigSet)
                   00000642    00000002     --HOLE-- [fill = 0]
@@ -48,34 +48,34 @@ section   page    origin      length       input sections
                   000008fc    00000050     delay.obj (.text)
                   0000094c    0000004c     driverlib.lib : i2c.obj (.text:I2CMasterInitExpClk)
                   00000998    00000048                   : gpio.obj (.text:GPIOPinConfigure)
-                  000009e0    00000044     rtsv7M4_T_le_v4SPD16_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
-                  00000a24    00000038     pinout.obj (.text)
-                  00000a5c    00000034     driverlib.lib : sysctl.obj (.text:SysCtlPeripheralEnable)
-                  00000a90    00000034     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
-                  00000ac4    00000030     InitSysCtl.obj (.text)
-                  00000af4    0000002a     driverlib.lib : gpio.obj (.text:GPIODirModeSet)
-                  00000b1e    0000001c     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init_nomemset:__TI_zero_init_nomemset)
-                  00000b3a    00000012     driverlib.lib : gpio.obj (.text:GPIOPinTypeI2C)
-                  00000b4c    00000012                   : gpio.obj (.text:GPIOPinTypeI2CSCL)
-                  00000b5e    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
-                  00000b6a    0000000a     driverlib.lib : i2c.obj (.text:I2CMasterEnable)
-                  00000b74    00000008                   : i2c.obj (.text:I2CMasterBusy)
-                  00000b7c    00000008                   : i2c.obj (.text:I2CMasterSlaveAddrSet)
-                  00000b84    00000006                   : sysctl.obj (.text:SysCtlDelay)
-                  00000b8a    00000004                   : i2c.obj (.text:I2CMasterControl)
-                  00000b8e    00000004                   : i2c.obj (.text:I2CMasterDataGet)
-                  00000b92    00000004                   : i2c.obj (.text:I2CMasterDataPut)
-                  00000b96    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
-                  00000b9a    00000004                                   : exit.c.obj (.text:abort:abort)
+                  000009e0    00000044     InitSysCtl.obj (.text)
+                  00000a24    00000044     rtsv7M4_T_le_v4SPD16_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  00000a68    00000038     pinout.obj (.text)
+                  00000aa0    00000034     driverlib.lib : sysctl.obj (.text:SysCtlPeripheralEnable)
+                  00000ad4    00000034     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
+                  00000b08    0000002a     driverlib.lib : gpio.obj (.text:GPIODirModeSet)
+                  00000b32    0000001c     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init_nomemset:__TI_zero_init_nomemset)
+                  00000b4e    00000012     driverlib.lib : gpio.obj (.text:GPIOPinTypeI2C)
+                  00000b60    00000012                   : gpio.obj (.text:GPIOPinTypeI2CSCL)
+                  00000b72    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
+                  00000b7e    0000000a     driverlib.lib : i2c.obj (.text:I2CMasterEnable)
+                  00000b88    00000008                   : i2c.obj (.text:I2CMasterBusy)
+                  00000b90    00000008                   : i2c.obj (.text:I2CMasterSlaveAddrSet)
+                  00000b98    00000006                   : sysctl.obj (.text:SysCtlDelay)
+                  00000b9e    00000004                   : i2c.obj (.text:I2CMasterControl)
+                  00000ba2    00000004                   : i2c.obj (.text:I2CMasterDataGet)
+                  00000ba6    00000004                   : i2c.obj (.text:I2CMasterDataPut)
+                  00000baa    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
+                  00000bae    00000004                                   : exit.c.obj (.text:abort:abort)
 
-.const     0    00000ba0    000000fc     
-                  00000ba0    00000090     driverlib.lib : gpio.obj (.const:g_pui32GPIOBaseAddrs)
-                  00000c30    0000006c                   : sysctl.obj (.const:g_pui32Xtals)
+.const     0    00000bb4    000000fc     
+                  00000bb4    00000090     driverlib.lib : gpio.obj (.const:g_pui32GPIOBaseAddrs)
+                  00000c44    0000006c                   : sysctl.obj (.const:g_pui32Xtals)
 
-.cinit     0    00000ca0    00000014     
-                  00000ca0    00000008     (.cinit..bss.load) [load image, compression = zero_init]
-                  00000ca8    00000004     (__TI_handler_table)
-                  00000cac    00000008     (__TI_cinit_table)
+.cinit     0    00000cb0    00000014     
+                  00000cb0    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  00000cb8    00000004     (__TI_handler_table)
+                  00000cbc    00000008     (__TI_cinit_table)
 
 .init_array 
 *          0    00000000    00000000     UNINITIALIZED
@@ -107,9 +107,9 @@ MODULE SUMMARY
     .\user_init\
        InitI2C.obj                    676    0         0      
        delay.obj                      80     0         0      
-       InitSysCtl.obj                 48     0         0      
+       InitSysCtl.obj                 68     0         0      
     +--+------------------------------+------+---------+---------+
-       Total:                         804    0         0      
+       Total:                         824    0         0      
                                                               
     C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib
        sysctl.obj                     654    108       0      
@@ -130,18 +130,18 @@ MODULE SUMMARY
        Stack:                         0      0         512    
        Linker Generated:              0      20        0      
     +--+------------------------------+------+---------+---------+
-       Grand Total:                   2352   892       524    
+       Grand Total:                   2372   892       524    
 
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 00000cac records: 1, size/record: 8, table size: 8
-	.bss: load addr=00000ca0, load size=00000008 bytes, run addr=20000200, run size=0000000c bytes, compression=zero_init
+__TI_cinit_table @ 00000cbc records: 1, size/record: 8, table size: 8
+	.bss: load addr=00000cb0, load size=00000008 bytes, run addr=20000200, run size=0000000c bytes, compression=zero_init
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 00000ca8 records: 1, size/record: 4, table size: 4
+__TI_handler_table @ 00000cb8 records: 1, size/record: 4, table size: 4
 	index: 0, handler: __TI_zero_init
 
 
@@ -149,19 +149,19 @@ GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name
 
 address   name                          
 -------   ----                          
-00000b9b  C$$EXIT                       
-00000af5  GPIODirModeSet                
+00000baf  C$$EXIT                       
+00000b09  GPIODirModeSet                
 00000511  GPIOPadConfigSet              
 00000999  GPIOPinConfigure              
-00000b3b  GPIOPinTypeI2C                
-00000b4d  GPIOPinTypeI2CSCL             
-00000b75  I2CMasterBusy                 
-00000b8b  I2CMasterControl              
-00000b8f  I2CMasterDataGet              
-00000b93  I2CMasterDataPut              
-00000b6b  I2CMasterEnable               
+00000b4f  GPIOPinTypeI2C                
+00000b61  GPIOPinTypeI2CSCL             
+00000b89  I2CMasterBusy                 
+00000b9f  I2CMasterControl              
+00000ba3  I2CMasterDataGet              
+00000ba7  I2CMasterDataPut              
+00000b7f  I2CMasterEnable               
 0000094d  I2CMasterInitExpClk           
-00000b7d  I2CMasterSlaveAddrSet         
+00000b91  I2CMasterSlaveAddrSet         
 00000487  I2CReceive                    
 000002fd  I2CSend                       
 000003e1  I2CSendString                 
@@ -170,13 +170,13 @@ address   name
 00000291  Init_I2C1                     
 000002b5  Init_I2C2                     
 000002d9  Init_I2C3                     
-00000ac5  Init_SysCtl                   
-00000a25  PinoutSet                     
-00000b5f  ResetISR                      
+000009e1  Init_SysCtl                   
+00000a69  PinoutSet                     
+00000b73  ResetISR                      
 00000645  SysCtlClockGet                
 00000755  SysCtlClockSet                
-00000b85  SysCtlDelay                   
-00000a5d  SysCtlPeripheralEnable        
+00000b99  SysCtlDelay                   
+00000aa1  SysCtlPeripheralEnable        
 000008ad  SysCtlPeripheralReset         
 20000200  X_out                         
 20000204  Y_out                         
@@ -184,24 +184,24 @@ address   name
 20000200  __STACK_END                   
 00000200  __STACK_SIZE                  
 20000200  __STACK_TOP                   
-00000cac  __TI_CINIT_Base               
-00000cb4  __TI_CINIT_Limit              
-00000ca8  __TI_Handler_Table_Base       
-00000cac  __TI_Handler_Table_Limit      
-000009e1  __TI_auto_init_nobinit_nopinit
+00000cbc  __TI_CINIT_Base               
+00000cc4  __TI_CINIT_Limit              
+00000cb8  __TI_Handler_Table_Base       
+00000cbc  __TI_Handler_Table_Limit      
+00000a25  __TI_auto_init_nobinit_nopinit
 ffffffff  __TI_pprof_out_hndl           
 ffffffff  __TI_prof_data_size           
 ffffffff  __TI_prof_data_start          
 00000000  __TI_static_base__            
-00000b1f  __TI_zero_init_nomemset       
+00000b33  __TI_zero_init_nomemset       
 ffffffff  __binit__                     
 ffffffff  __c_args__                    
 UNDEFED   __mpu_init                    
 20000000  __stack                       
-00000a91  _c_int00_noargs               
+00000ad5  _c_int00_noargs               
 UNDEFED   _system_post_cinit            
-00000b97  _system_pre_init              
-00000b9b  abort                         
+00000bab  _system_pre_init              
+00000baf  abort                         
 ffffffff  binit                         
 00000915  delay_ms                      
 0000092f  delay_s                       
@@ -235,30 +235,30 @@ address   name
 0000092f  delay_s                       
 0000094d  I2CMasterInitExpClk           
 00000999  GPIOPinConfigure              
-000009e1  __TI_auto_init_nobinit_nopinit
-00000a25  PinoutSet                     
-00000a5d  SysCtlPeripheralEnable        
-00000a91  _c_int00_noargs               
-00000ac5  Init_SysCtl                   
-00000af5  GPIODirModeSet                
-00000b1f  __TI_zero_init_nomemset       
-00000b3b  GPIOPinTypeI2C                
-00000b4d  GPIOPinTypeI2CSCL             
-00000b5f  ResetISR                      
-00000b6b  I2CMasterEnable               
-00000b75  I2CMasterBusy                 
-00000b7d  I2CMasterSlaveAddrSet         
-00000b85  SysCtlDelay                   
-00000b8b  I2CMasterControl              
-00000b8f  I2CMasterDataGet              
-00000b93  I2CMasterDataPut              
-00000b97  _system_pre_init              
-00000b9b  C$$EXIT                       
-00000b9b  abort                         
-00000ca8  __TI_Handler_Table_Base       
-00000cac  __TI_CINIT_Base               
-00000cac  __TI_Handler_Table_Limit      
-00000cb4  __TI_CINIT_Limit              
+000009e1  Init_SysCtl                   
+00000a25  __TI_auto_init_nobinit_nopinit
+00000a69  PinoutSet                     
+00000aa1  SysCtlPeripheralEnable        
+00000ad5  _c_int00_noargs               
+00000b09  GPIODirModeSet                
+00000b33  __TI_zero_init_nomemset       
+00000b4f  GPIOPinTypeI2C                
+00000b61  GPIOPinTypeI2CSCL             
+00000b73  ResetISR                      
+00000b7f  I2CMasterEnable               
+00000b89  I2CMasterBusy                 
+00000b91  I2CMasterSlaveAddrSet         
+00000b99  SysCtlDelay                   
+00000b9f  I2CMasterControl              
+00000ba3  I2CMasterDataGet              
+00000ba7  I2CMasterDataPut              
+00000bab  _system_pre_init              
+00000baf  C$$EXIT                       
+00000baf  abort                         
+00000cb8  __TI_Handler_Table_Base       
+00000cbc  __TI_CINIT_Base               
+00000cbc  __TI_Handler_Table_Limit      
+00000cc4  __TI_CINIT_Limit              
 20000000  __stack                       
 20000200  X_out                         
 20000200  __STACK_END                   
