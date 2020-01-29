@@ -1,6 +1,6 @@
 # Prerequisites
 *.d linguist-detectable=true
-
+Makefile linguist-generated=true
 Makefile linguist-language=C
 makefile linguist-language=C
 
