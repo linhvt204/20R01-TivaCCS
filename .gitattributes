@@ -1,2 +1,52 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Prerequisites
+*.d linguist-detectable=true
+
+# Object files
+*.o linguist-detectable=true
+*.ko linguist-detectable=true
+*.obj linguist-detectable=true
+*.elf linguist-detectable=true
+
+# Linker output
+*.ilk linguist-detectable=true
+*.map linguist-detectable=true
+*.exp linguist-detectable=true
+
+# Precompiled Headers
+*.gch linguist-detectable=true
+*.pch linguist-detectable=true
+
+# Libraries
+*.lib linguist-detectable=true
+*.a linguist-detectable=true
+*.la linguist-detectable=true
+*.lo linguist-detectable=true
+
+# Shared objects (inc. Windows DLLs)
+*.dll linguist-detectable=true
+*.so linguist-detectable=true
+*.so.*
+*.dylib linguist-detectable=true
+
+# Executables
+*.exe linguist-detectable=true
+*.out linguist-detectable=true
+*.app linguist-detectable=true
+*.i*86
+*.x86_64
+*.hex linguist-detectable=true
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
