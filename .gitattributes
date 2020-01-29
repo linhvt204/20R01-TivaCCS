@@ -1,6 +1,8 @@
 # Prerequisites
 *.d linguist-detectable=true
 
+*.in linguist-language=C
+
 # Object files
 *.o linguist-detectable=true
 *.ko linguist-detectable=true
