@@ -1,0 +1,13 @@
+
+**** Clean-only build of configuration Debug for project 20P04_I2C ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "syscfg\pinout.h" "syscfg\summary.csv"  "20P04_I2C.txt"  "syscfg\pinout.c"  "20P04_I2C.out" 
+DEL /F "syscfg\pinout.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" "user_init\InitADC.obj" "user_init\InitFPU.obj" "user_init\InitGPIO.obj" "user_init\InitI2C.obj" "user_init\InitPWM.obj" "user_init\InitSSI.obj" "user_init\InitSysCtl.obj" "user_init\InitSysTick.obj" "user_init\InitTimer.obj" "user_init\InitUART.obj" "user_init\delay.obj" "user_init\uartstdio.obj" 
+DEL /F "syscfg\pinout.d" "main.d" "tm4c123gh6pm_startup_ccs.d" "user_init\InitADC.d" "user_init\InitFPU.d" "user_init\InitGPIO.d" "user_init\InitI2C.d" "user_init\InitPWM.d" "user_init\InitSSI.d" "user_init\InitSysCtl.d" "user_init\InitSysTick.d" "user_init\InitTimer.d" "user_init\InitUART.d" "user_init\delay.d" "user_init\uartstdio.d" 
+RMDIR /S/Q  "syscfg\" 
+Finished clean
+ 
+
+**** Build Finished ****

@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project _GProject_v1.3 ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: '_GProject_v1.3.out' is up to date.
+
+**** Build Finished ****

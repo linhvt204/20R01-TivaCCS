@@ -1,0 +1,23 @@
+
+**** Build of configuration Debug for project AirQualityPrj ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../InitI2C.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/AirQualityPrj" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="InitI2C.d_raw"  "../InitI2C.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'InitI2C.obj' failed
+"../InitI2C.c", line 27: error #20: identifier "I2C2_BASE" is undefined
+"../InitI2C.c", line 45: error #20: identifier "I2C2_BASE" is undefined
+"../InitI2C.c", line 63: warning #225-D: function "I2CMasterSlaveAddrset" declared implicitly
+"../InitI2C.c", line 63: error #20: identifier "I2C2_BASE" is undefined
+"../InitI2C.c", line 70: warning #176-D: expression has no effect
+"../InitI2C.c", line 71: error #66: expected a ";"
+"../InitI2C.c", line 71: warning #994-D: missing return statement at end of non-void function "I2CGet2Bytes"
+4 errors detected in the compilation of "../InitI2C.c".
+gmake: *** [InitI2C.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

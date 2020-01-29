@@ -1,0 +1,63 @@
+/*******************************************************************************
+ *  Name of files: I2C_Lightsensor
+ *  Description: Giao tiep voi sensor GY-30 su dung I2C1 cua tm4c
+ *
+ * Linh Vu - vu.t.linh204.work@gmail.com
+ * Freelance
+ * October 2019
+ * Built with CCS v.9.2
+
+********************************************************************************/
+
+//****************************************************************************//
+// The Includes
+//****************************************************************************//
+#include <stdint.h>
+#include <stdbool.h>
+
+#include "utils/ustdlib.h"
+#include "inc/hw_types.h"
+#include "inc/hw_memmap.h"
+
+#include "driverlib/pin_map.h"
+#include "driverlib/debug.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/gpio.h"
+#include "driverlib/systick.h"
+#include "driverlib/hibernate.h"
+
+#include "delay.h"
+#include "InitHibernation.h"
+#include "InitSysCtl.h"
+#include "InitGPIO.h"
+#include "InitUART.h"
+#include "InitI2C.h"
+
+#define WHO_AM_I              0x23
+uint32_t buff[2];
+
+
+
+//****************************************************************************//
+// The Interrupt Program
+//****************************************************************************//
+
+//****************************************************************************//
+// The Main Program
+//****************************************************************************//
+int main(void)
+{
+    // Set Clock at 80MHz
+    Init_SysCtl();
+    // Enable port A, PA5, PA6 as I2C
+    Init_GPIO();
+    // init UART at baudrate 115200
+    InitUART();
+    // init I2C
+    InitI2C();
+    // main loop
+    while(1)
+    {
+
+    }
+}

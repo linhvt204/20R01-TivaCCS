@@ -1,0 +1,69 @@
+
+**** Build of configuration Debug for project Test ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/Test" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+subdir_rules.mk:338: recipe for target 'tm4c123gh6pm_startup_ccs.obj' failed
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/ADCSWTrigger.c', needed by 'ADCSWTrigger.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/ADCT0ATrigger.c', needed by 'ADCT0ATrigger.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/AGM1264F.c', needed by 'AGM1264F.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/BSP.c', needed by 'BSP.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Board.c', needed by 'Board.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/DMASPI.c', needed by 'DMASPI.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/DMASoftware.c', needed by 'DMASoftware.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/DMATimerRead.c', needed by 'DMATimerRead.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/DMATimerWrite.c', needed by 'DMATimerWrite.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/EdgeCount.c', needed by 'EdgeCount.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/EdgeInterruptPortF.c', needed by 'EdgeInterruptPortF.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/FIFOsimple.c', needed by 'FIFOsimple.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/FlashProgram.c', needed by 'FlashProgram.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/FreqMeasure.c', needed by 'FreqMeasure.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/HD44780.c', needed by 'HD44780.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/HeapBlock.c', needed by 'HeapBlock.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/I2C0.c', needed by 'I2C0.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/I2C1.c', needed by 'I2C1.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/I2C2.c', needed by 'I2C2.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/InputCapture.c', needed by 'InputCapture.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/LED.c', needed by 'LED.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/LLFifo.c', needed by 'LLFifo.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/MAX5353.c', needed by 'MAX5353.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Nokia5110.c', needed by 'Nokia5110.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/PLL.c', needed by 'PLL.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/PWM.c', needed by 'PWM.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/PWMDual.c', needed by 'PWMDual.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Profile.c', needed by 'Profile.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/SSD2119.c', needed by 'SSD2119.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/ST7735.c', needed by 'ST7735.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/ST7735_PortD.c', needed by 'ST7735_PortD.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Switch.c', needed by 'Switch.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/SysTick.c', needed by 'SysTick.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/SysTickInts.c', needed by 'SysTickInts.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Timer0A.c', needed by 'Timer0A.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Timer0APWM.c', needed by 'Timer0APWM.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Timer1A.c', needed by 'Timer1A.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Timer2A.c', needed by 'Timer2A.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/Timer3A.c', needed by 'Timer3A.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/UART.c', needed by 'UART.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/UART0int.c', needed by 'UART0int.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/UART1.c', needed by 'UART1.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/eFileFlash.c', needed by 'eFileFlash.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/esp8266.c', needed by 'esp8266.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/esp8266v2.c', needed by 'esp8266v2.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/heap.c', needed by 'heap.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/interrupt.c', needed by 'interrupt.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/max549.c', needed by 'max549.obj'.
+gmake: *** No rule to make target 'E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc/timer4.c', needed by 'timer4.obj'.
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [tm4c123gh6pm_startup_ccs.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/Test" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/inc" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+subdir_rules.mk:338: recipe for target 'main.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

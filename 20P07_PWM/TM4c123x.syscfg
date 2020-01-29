@@ -1,0 +1,28 @@
+// These arguments were used when this file was generated. They will be automatically applied on subsequent loads 
+// via the GUI or CLI invocations. Run CLI with '--help' for additional information on how to override these arguments.
+// @cliArgs --device "TM4C123x" --package "64 Pin QFP|16x16" --part "TM4C123GH6PM"
+// @versions {"data":"2019083011","timestamp":"2019083011","tool":"1.2.952","templates":"2019083011"}
+
+var iPWM1 = scripting.addPeripheral("PWM");
+// Name
+iPWM1.$name = "MyPWM1";
+// Used
+iPWM1.PWM0.$used = false;
+// Used
+iPWM1.FAULT0.$used = false;
+// Used
+iPWM1.PWM1.$used = false;
+// Used
+iPWM1.PWM4.$used = false;
+// Used
+iPWM1.PWM3.$used = false;
+// Assign pin
+iPWM1.PWM7.$assign = "PF3"; // pin number - 31
+// Used
+iPWM1.PWM2.$used = false;
+// Assign pin
+iPWM1.PWM6.$assign = "PF2"; // pin number - 30
+// Assign pin
+iPWM1.PWM5.$assign = "PF1"; // pin number - 29
+// Suggest solution
+iPWM1.$suggestSolution = "PWM1";

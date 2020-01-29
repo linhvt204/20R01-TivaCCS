@@ -1,0 +1,30 @@
+/*******************************************************************************
+ *  Name of files:  InitComparator.c
+ *  Description:
+ *
+ * Linh Vu - vu.t.linh204.work@gmail.com
+ * Freelance
+ * October 2019
+ * Built with CCS v.9.3
+
+ ********************************************************************************/
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <user_init/InitInc.h>
+
+void Init_Comparator0(void)
+{
+    uint32_t ready_count;
+    SysCtlPeripheralDisable(SYSCTL_PERIPH_COMP0);
+    SysCtlPeripheralReset(SYSCTL_PERIPH_COMP0);
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_COMP0);
+    // 2000U just make sure ready_count is unsigned variable.
+    ready_count = 2000U;
+    while (((!SysCtlPeripheralReady(SYSCTL_PERIPH_COM0))) && (--ready_count))
+    {
+    }
+    }
+
+}

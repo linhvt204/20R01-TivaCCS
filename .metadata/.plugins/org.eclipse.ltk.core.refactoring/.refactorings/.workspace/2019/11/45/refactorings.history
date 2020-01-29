@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Pm2.5_sensor/tm4c123gh6pm_startup_ccs (1).c&apos;" deleteContents="false" description="Delete resource &apos;Pm2.5_sensor/tm4c123gh6pm_startup_ccs (1).c&apos;" element1="/Pm2.5_sensor/tm4c123gh6pm_startup_ccs (1).c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1573087285120"/>&#x0A;<refactoring comment="Delete resource &apos;Pm2.5_sensor/main (1).c&apos;" deleteContents="false" description="Delete resource &apos;Pm2.5_sensor/main (1).c&apos;" element1="/Pm2.5_sensor/main (1).c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1573087287128"/>
+</session>

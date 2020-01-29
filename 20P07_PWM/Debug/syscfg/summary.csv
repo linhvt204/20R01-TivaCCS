@@ -1,0 +1,4 @@
+Pin#, PORT IO, Function, Directions
+31,PF3,M1PWM7, , ,
+30,PF2,M1PWM6, , ,
+29,PF1,M1PWM5, , ,

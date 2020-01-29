@@ -1,0 +1,18 @@
+// These arguments were used when this file was generated. They will be automatically applied on subsequent loads 
+// via the GUI or CLI invocations. Run CLI with '--help' for additional information on how to override these arguments.
+// @cliArgs --device "TM4C123x" --package "64 Pin QFP|16x16" --part "TM4C123GH6PM"
+// @versions {"data":"2019083011","timestamp":"2019083011","tool":"1.2.952","templates":"2019083011"}
+
+var iSSI1 = scripting.addPeripheral("SSI");
+// Name
+iSSI1.$name = "MySSI0";
+// Use Peripheral
+iSSI1.$assign = "SSI0";
+// Suggest solution
+iSSI1.RX.$suggestSolution = "21";
+// Suggest solution
+iSSI1.FSS.$suggestSolution = "20";
+// Suggest solution
+iSSI1.TX.$suggestSolution = "22";
+// Suggest solution
+iSSI1.CLK.$suggestSolution = "19";

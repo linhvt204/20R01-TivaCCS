@@ -1,0 +1,132 @@
+/*******************************************************************************
+ *  Name of files: St7735
+ *  Description:
+ *  Kết nối tm4c launchpad với màn hình tft 1.44" (Độ phân giải ~128x128) qua
+ *  chuẩn giao tiếp SPI
+ *  Link mua màn hình: https://chotroihn.vn/man-hinh-tft-1-44-inch-spi-128x128-st7735
+ *  Đầu ra kết nối màn hình gồm có 11 chân, theo thứ tự như sau:
+ *  VCC/GND/NC/NC/LED/CLK/SDI/RS/RST/CS
+ *      + VCC nối với 3.3V hoặc 5V trên launchpad
+ *      + GND nối với GND trên launchpad
+ *      + NCx2: Not Connect
+ *      + LED nối với 3.3V trên launchpad
+ *      + CLK = Clock Pin
+ *      + SDI = Data Pin
+ *      + RS = Register Data
+ *      + RST = Reset Pin (Chân không bắt buộc)
+ *      + CS = Chip Select
+ *  Chuẩn giao tiếp của màn hình với vi điều khiển là SPI, chuẩn này giao tiếp cần 4 chân:
+ *      + SCLK = SCK: Serial Clock
+ *      + MOSI: Master Output Slave Input
+ *      + MISO: Master Input Slave Output
+ *      + SS: Slave Select
+ *  Thư viện sử dụng từ link Github https://github.com/jtfell/Tiva-ST7735-Library
+ *  bao gồm ST7735.h và ST7735.c, chi tiết sử dụng các hàm trong ST7735.c được lưu ở
+ *  file Read me_API_ST7735.
+ *  Các chân kết nối theo thứ tự như sau với SPI của tm4c sử dụng module 0 (SPI_0) trong tổng số
+ *  4 module SPI của tm4c.
+ *  VCC -- VBUS(5V)
+ *  GND -- GND
+ *  LED -- 3.3V
+ *  CLK -- CLK -- PA2
+ *  SDI -- MOSI -- PA5
+ *  RS -- PA6
+ *  RST -- PA7
+ *  CS -- PA3
+ *
+ * Linh Vu - K60
+ * HaNoi Unversity of Science and Technology (HUST)
+ * June 2019
+ * Built with CCS v.9.2
+
+ ********************************************************************************/
+
+//****************************************************************************//
+// The Includes
+//****************************************************************************//
+#include "inc/tm4c123gh6pm.h"
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include "inc/hw_memmap.h"
+#include "inc/hw_types.h"
+#include "inc/hw_gpio.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/gpio.h"
+#include "driverlib/rom.h"
+#include "driverlib/ssi.h"
+
+#include "ST7735.h"
+#include "delay.h"
+//****************************************************************************//
+// The Interrupt Program
+//****************************************************************************//
+
+//****************************************************************************//
+// The Main Program
+//****************************************************************************//
+int main(void)
+{
+
+    ROM_SysCtlClockSet(SYSCTL_SYSDIV_4 | SYSCTL_USE_PLL | SYSCTL_XTAL_16MHZ |
+    SYSCTL_OSC_MAIN);
+    LcdInit();
+
+    //
+    // Loop forever.
+    //
+    while (1)
+    {
+        /*fillScreen(ST7735_BLACK);
+
+         fillRoundRect(25, 35, 78, 60, 8, ST7735_WHITE);
+         fillTriangle(42, 50, 42, 75, 90, 63, ST7735_RED);
+         delay_ms(2000);
+
+
+         // pause
+         fillRoundRect(25, 90, 78, 60, 8, ST7735_WHITE);
+         fillRoundRect(39, 98, 20, 45, 5, ST7735_GREEN);
+         fillRoundRect(69, 98, 20, 45, 5, ST7735_GREEN);
+         delay_ms(5000);
+
+         // play color
+         fillTriangle(42, 20, 42, 60, 90, 40, ST7735_BLUE);
+         delay_ms(5000);
+
+         // pause color
+         fillRoundRect(39, 98, 20, 45, 5, ST7735_RED);
+         fillRoundRect(69, 98, 20, 45, 5, ST7735_RED);
+
+         // play color
+         fillTriangle(42, 20, 42, 60, 90, 40, ST7735_GREEN);
+
+
+         //             delay_ms(5000);
+         fillScreen(ST7735_BLACK);*/
+        fillScreen(ST7735_BLACK);
+        drawString("Xin chao, day la san pham cua PE!", 10, 10, ST7735_WHITE,
+        ST7735_BLACK,
+                   1);
+        while (1)
+        {
+
+        }
+        /*drawString("Xin chao, minh ten   la Linh Vu.", 10, 10, ST7735_WHITE, ST7735_BLACK, 1);
+
+         delay_ms(1000);
+
+         drawString("Rat vui duoc lam     quen voi cac ban!", 10, 30, ST7735_WHITE, ST7735_BLACK, 1);
+
+         delay_ms(1000);
+
+         drawString("Minh duoc lap trinh  boi phan mem CCS.", 10, 50, ST7735_WHITE, ST7735_BLACK, 1);
+
+         delay_ms(1000);
+
+         drawString("Hay gui nhung loi    tot dep nhat cho     nguoi phu nu cua ban vao 20/10 nhe!", 10, 70, ST7735_WHITE, ST7735_BLACK, 1);
+
+         delay_ms(8000);*/
+    }
+}
+

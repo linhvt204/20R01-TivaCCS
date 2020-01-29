@@ -1,0 +1,14 @@
+// These arguments were used when this file was generated. They will be automatically applied on subsequent loads 
+// via the GUI or CLI invocations. Run CLI with '--help' for additional information on how to override these arguments.
+// @cliArgs --device "TM4C123x" --package "64 Pin QFP|16x16" --part "TM4C123GH6PM"
+// @versions {"data":"2019083011","timestamp":"2019083011","tool":"1.2.952","templates":"2019083011"}
+
+var iI2C1 = scripting.addPeripheral("I2C");
+// Name
+iI2C1.$name = "MyI2C0";
+// Use Peripheral
+iI2C1.$assign = "I2C0";
+// Assign pin
+iI2C1.SCL.$assign = "PB2"; // pin number - 47
+// Assign pin
+iI2C1.SDA.$assign = "PB3"; // pin number - 48

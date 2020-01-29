@@ -1,0 +1,20 @@
+/*******************************************************************************
+ *  Name of files: Pm2.5_sensor
+ *  Description: Cảm biến bụi siêu mịn 2.5 sử dụng launchpad tm4c123gh6pm
+ *      - Complete design for PM 2.5 detection (in a car or room)
+ *      - Low power system and can provide the PM2.5 level and shoot an alarm/notification
+ *      - Be able to extend and communicate with Bluetooth/IoT device
+ *      - Be based on TM4C123, CC3220
+ *  Cảm biến bụi gồm có 6 chân: (Link: http://arduinodev.woofex.net/2012/12/01/standalone-sharp-dust-sensor/)
+ *  1/ V-LED (3.3V) (required 150 Ohm in between)
+ *  2/ LED-GND (GND)
+ *  3/ LED alarm (GPIO)
+ *  4/ S-GND (GND)
+ *  5/ Analog Output (GPIO)
+ *  6/ Vcc (3.3V)
+ * Linh Vu - vu.t.linh204.work@gmail.com
+ * Freelance
+ * 16 October 2019
+ * Built with CCS v.9
+
+********************************************************************************/

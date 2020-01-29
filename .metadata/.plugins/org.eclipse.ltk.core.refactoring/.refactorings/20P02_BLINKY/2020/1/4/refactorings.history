@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;20P02_BLINKY/user_init/InitLED.c&apos; to &apos;InitLed.c&apos;" description="Rename resource &apos;InitLED.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="user_init/InitLED.c" name="InitLed.c" stamp="1579736523322" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;20P02_BLINKY/user_init/InitLED.h&apos; to &apos;InitLed.h&apos;" description="Rename resource &apos;InitLED.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="user_init/InitLED.h" name="InitLed.h" stamp="1579736530288" updateReferences="true"/>
+</session>

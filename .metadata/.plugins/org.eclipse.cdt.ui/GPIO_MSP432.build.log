@@ -1,0 +1,78 @@
+
+**** Build of configuration Debug for project GPIO_MSP432 ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../GPIO.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/ti/ccs901/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --include_path="C:/ti/ccs901/ccs/ccs_base/arm/include/CMSIS" --advice:power=all -g --gcc --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="GPIO.d_raw"  "../GPIO.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'GPIO.obj' failed
+"../GPIO.c", line 31: fatal error #1965: cannot open source file "..\inc\msp432p401r.h"
+1 catastrophic error detected in the compilation of "../GPIO.c".
+Compilation terminated.
+Building file: "../SysTick.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/ti/ccs901/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --include_path="C:/ti/ccs901/ccs/ccs_base/arm/include/CMSIS" --advice:power=all -g --gcc --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="SysTick.d_raw"  "../SysTick.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'SysTick.obj' failed
+gmake: *** [GPIO.obj] Error 1
+"../SysTick.c", line 33: fatal error #1965: cannot open source file "..\inc\msp432p401r.h"
+1 catastrophic error detected in the compilation of "../SysTick.c".
+Compilation terminated.
+gmake: *** [SysTick.obj] Error 1
+Building file: "../msp432_startup_ccs.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/ti/ccs901/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.1.LTS/include" --include_path="C:/ti/ccs901/ccs/ccs_base/arm/include/CMSIS" --advice:power=all -g --gcc --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="msp432_startup_ccs.d_raw"  "../msp432_startup_ccs.c"
+"../msp432_startup_ccs.c", line 269: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 270: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 271: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 272: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 273: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 274: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 275: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 276: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 277: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 278: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 279: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 280: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 281: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 282: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 283: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 284: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 285: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 286: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 287: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 288: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 289: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 290: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 291: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 292: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 293: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 294: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 295: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 296: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 297: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 298: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 299: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 300: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 301: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 302: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 303: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 304: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 305: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 306: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 307: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 308: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 309: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 310: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 311: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 312: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../msp432_startup_ccs.c", line 313: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../msp432_startup_ccs.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

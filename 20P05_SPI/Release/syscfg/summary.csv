@@ -1,0 +1,5 @@
+Pin#, PORT IO, Function, Directions
+21,PA4,SSI0RX, , ,
+20,PA3,SSI0FSS, , ,
+22,PA5,SSI0TX, , ,
+19,PA2,SSI0CLK, , ,

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;delay.c, InitADC.c, InitFPU.c, InitGPIO.c, InitI2C.c, InitPWM.c, InitSSI.c, InitSysCtl.c, InitSysTick.c, InitTimer.c&apos; to &apos;20P01_0DefaultPrj&apos;" description="Move 10 resources to &apos;20P01_0DefaultPrj&apos;" destination="/20P01_0DefaultPrj" element1="user_init/delay.c" element10="user_init/InitTimer.c" element2="user_init/InitADC.c" element3="user_init/InitFPU.c" element4="user_init/InitGPIO.c" element5="user_init/InitI2C.c" element6="user_init/InitPWM.c" element7="user_init/InitSSI.c" element8="user_init/InitSysCtl.c" element9="user_init/InitSysTick.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="10" stamp="1579463521999" updateReferences="true"/>
+</session>

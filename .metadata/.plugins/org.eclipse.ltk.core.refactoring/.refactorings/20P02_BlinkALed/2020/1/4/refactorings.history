@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;20P01_BlinkALed/inc&apos; to &apos;user_init&apos;" description="Rename resource &apos;inc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc" name="user_init" stamp="1579433959042" updateReferences="true"/>
+</session>

@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project API_Hibernation ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'API_Hibernation.out' is up to date.
+
+**** Build Finished ****

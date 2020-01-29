@@ -1,0 +1,338 @@
+
+**** Build of configuration Debug for project ADCRead ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../I2C0.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="I2C0.d_raw"  "../I2C0.c"
+subdir_rules.mk:9: recipe for target 'I2C0.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [I2C0.obj] Error 1
+Building file: "../I2CTestMain.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="I2CTestMain.d_raw"  "../I2CTestMain.c"
+subdir_rules.mk:9: recipe for target 'I2CTestMain.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [I2CTestMain.obj] Error 1
+Building file: "../PLL.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="PLL.d_raw"  "../PLL.c"
+subdir_rules.mk:9: recipe for target 'PLL.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [PLL.obj] Error 1
+Building file: "../UART.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="UART.d_raw"  "../UART.c"
+subdir_rules.mk:9: recipe for target 'UART.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [UART.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [main.obj] Error 1
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+subdir_rules.mk:9: recipe for target 'tm4c123gh6pm_startup_ccs.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [tm4c123gh6pm_startup_ccs.obj] Error 1
+Building file: "../inc/ADCSWTrigger.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/ADCSWTrigger.d_raw" --obj_directory="inc"  "../inc/ADCSWTrigger.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/ADCSWTrigger.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/ADCSWTrigger.obj] Error 1
+Building file: "../inc/ADCT0ATrigger.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/ADCT0ATrigger.d_raw" --obj_directory="inc"  "../inc/ADCT0ATrigger.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/ADCT0ATrigger.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/ADCT0ATrigger.obj] Error 1
+Building file: "../inc/AGM1264F.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/AGM1264F.d_raw" --obj_directory="inc"  "../inc/AGM1264F.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/AGM1264F.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/AGM1264F.obj] Error 1
+Building file: "../inc/BSP.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/BSP.d_raw" --obj_directory="inc"  "../inc/BSP.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/BSP.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/BSP.obj] Error 1
+Building file: "../inc/Board.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Board.d_raw" --obj_directory="inc"  "../inc/Board.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Board.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Board.obj] Error 1
+Building file: "../inc/DMASPI.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/DMASPI.d_raw" --obj_directory="inc"  "../inc/DMASPI.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/DMASPI.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/DMASPI.obj] Error 1
+Building file: "../inc/DMASoftware.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/DMASoftware.d_raw" --obj_directory="inc"  "../inc/DMASoftware.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/DMASoftware.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/DMASoftware.obj] Error 1
+Building file: "../inc/DMATimerRead.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/DMATimerRead.d_raw" --obj_directory="inc"  "../inc/DMATimerRead.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/DMATimerRead.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/DMATimerRead.obj] Error 1
+Building file: "../inc/DMATimerWrite.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/DMATimerWrite.d_raw" --obj_directory="inc"  "../inc/DMATimerWrite.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/DMATimerWrite.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/DMATimerWrite.obj] Error 1
+Building file: "../inc/EdgeCount.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/EdgeCount.d_raw" --obj_directory="inc"  "../inc/EdgeCount.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/EdgeCount.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/EdgeCount.obj] Error 1
+Building file: "../inc/EdgeInterruptPortF.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/EdgeInterruptPortF.d_raw" --obj_directory="inc"  "../inc/EdgeInterruptPortF.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/EdgeInterruptPortF.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/EdgeInterruptPortF.obj] Error 1
+Building file: "../inc/FIFOsimple.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/FIFOsimple.d_raw" --obj_directory="inc"  "../inc/FIFOsimple.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/FIFOsimple.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/FIFOsimple.obj] Error 1
+Building file: "../inc/FreqMeasure.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/FreqMeasure.d_raw" --obj_directory="inc"  "../inc/FreqMeasure.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/FreqMeasure.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/FreqMeasure.obj] Error 1
+Building file: "../inc/FlashProgram.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/FlashProgram.d_raw" --obj_directory="inc"  "../inc/FlashProgram.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/FlashProgram.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/FlashProgram.obj] Error 1
+Building file: "../inc/HD44780.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/HD44780.d_raw" --obj_directory="inc"  "../inc/HD44780.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/HD44780.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/HD44780.obj] Error 1
+Building file: "../inc/I2C0.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/I2C0.d_raw" --obj_directory="inc"  "../inc/I2C0.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/I2C0.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/I2C0.obj] Error 1
+Building file: "../inc/HeapBlock.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/HeapBlock.d_raw" --obj_directory="inc"  "../inc/HeapBlock.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/HeapBlock.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/HeapBlock.obj] Error 1
+Building file: "../inc/I2C1.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/I2C1.d_raw" --obj_directory="inc"  "../inc/I2C1.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/I2C1.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/I2C1.obj] Error 1
+Building file: "../inc/I2C2.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/I2C2.d_raw" --obj_directory="inc"  "../inc/I2C2.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/I2C2.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/I2C2.obj] Error 1
+Building file: "../inc/InputCapture.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/InputCapture.d_raw" --obj_directory="inc"  "../inc/InputCapture.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/InputCapture.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/InputCapture.obj] Error 1
+Building file: "../inc/LED.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/LED.d_raw" --obj_directory="inc"  "../inc/LED.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/LED.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/LED.obj] Error 1
+Building file: "../inc/LLFifo.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/LLFifo.d_raw" --obj_directory="inc"  "../inc/LLFifo.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/LLFifo.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/LLFifo.obj] Error 1
+Building file: "../inc/MAX5353.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/MAX5353.d_raw" --obj_directory="inc"  "../inc/MAX5353.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/MAX5353.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/MAX5353.obj] Error 1
+Building file: "../inc/Nokia5110.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Nokia5110.d_raw" --obj_directory="inc"  "../inc/Nokia5110.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Nokia5110.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Nokia5110.obj] Error 1
+Building file: "../inc/PLL.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/PLL.d_raw" --obj_directory="inc"  "../inc/PLL.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/PLL.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/PLL.obj] Error 1
+Building file: "../inc/PWM.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/PWM.d_raw" --obj_directory="inc"  "../inc/PWM.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/PWM.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/PWM.obj] Error 1
+Building file: "../inc/PWMDual.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/PWMDual.d_raw" --obj_directory="inc"  "../inc/PWMDual.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/PWMDual.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/PWMDual.obj] Error 1
+Building file: "../inc/Profile.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Profile.d_raw" --obj_directory="inc"  "../inc/Profile.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Profile.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Profile.obj] Error 1
+Building file: "../inc/SSD2119.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/SSD2119.d_raw" --obj_directory="inc"  "../inc/SSD2119.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/SSD2119.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/SSD2119.obj] Error 1
+Building file: "../inc/ST7735.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/ST7735.d_raw" --obj_directory="inc"  "../inc/ST7735.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/ST7735.obj' failed
+Building file: "../inc/Switch.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Switch.d_raw" --obj_directory="inc"  "../inc/Switch.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Switch.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/ST7735.obj] Error 1
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Switch.obj] Error 1
+Building file: "../inc/ST7735_PortD.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/ST7735_PortD.d_raw" --obj_directory="inc"  "../inc/ST7735_PortD.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/ST7735_PortD.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/ST7735_PortD.obj] Error 1
+Building file: "../inc/SysTick.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/SysTick.d_raw" --obj_directory="inc"  "../inc/SysTick.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/SysTick.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/SysTick.obj] Error 1
+Building file: "../inc/SysTickInts.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/SysTickInts.d_raw" --obj_directory="inc"  "../inc/SysTickInts.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/SysTickInts.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/SysTickInts.obj] Error 1
+Building file: "../inc/Timer0A.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Timer0A.d_raw" --obj_directory="inc"  "../inc/Timer0A.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Timer0A.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Timer0A.obj] Error 1
+Building file: "../inc/Timer1A.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Timer1A.d_raw" --obj_directory="inc"  "../inc/Timer1A.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Timer1A.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Timer1A.obj] Error 1
+Building file: "../inc/Timer0APWM.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Timer0APWM.d_raw" --obj_directory="inc"  "../inc/Timer0APWM.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Timer0APWM.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Timer0APWM.obj] Error 1
+Building file: "../inc/Timer2A.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Timer2A.d_raw" --obj_directory="inc"  "../inc/Timer2A.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Timer2A.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Timer2A.obj] Error 1
+Building file: "../inc/Timer3A.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/Timer3A.d_raw" --obj_directory="inc"  "../inc/Timer3A.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/Timer3A.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/Timer3A.obj] Error 1
+Building file: "../inc/UART0int.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/UART0int.d_raw" --obj_directory="inc"  "../inc/UART0int.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/UART0int.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/UART0int.obj] Error 1
+Building file: "../inc/UART.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/UART.d_raw" --obj_directory="inc"  "../inc/UART.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/UART.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/UART.obj] Error 1
+Building file: "../inc/UART1.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/UART1.d_raw" --obj_directory="inc"  "../inc/UART1.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/UART1.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/UART1.obj] Error 1
+Building file: "../inc/eFileFlash.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/eFileFlash.d_raw" --obj_directory="inc"  "../inc/eFileFlash.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/eFileFlash.obj' failed
+Building file: "../inc/esp8266.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/esp8266.d_raw" --obj_directory="inc"  "../inc/esp8266.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/esp8266.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/eFileFlash.obj] Error 1
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/esp8266.obj] Error 1
+Building file: "../inc/esp8266v2.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/esp8266v2.d_raw" --obj_directory="inc"  "../inc/esp8266v2.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/esp8266v2.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/esp8266v2.obj] Error 1
+Building file: "../inc/heap.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/heap.d_raw" --obj_directory="inc"  "../inc/heap.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/heap.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/heap.obj] Error 1
+Building file: "../inc/interrupt.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/interrupt.d_raw" --obj_directory="inc"  "../inc/interrupt.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/interrupt.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/interrupt.obj] Error 1
+Building file: "../inc/timer4.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/timer4.d_raw" --obj_directory="inc"  "../inc/timer4.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/timer4.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/timer4.obj] Error 1
+Building file: "../inc/max549.c"
+Invoking: ARM Compiler
+"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/ADCRead" --include_path="E:/Keil/ValvanoWareTM4C123" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178/inc" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=rvmdk --define=PART_LM4F1230H5QP --define=	TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="inc/max549.d_raw" --obj_directory="inc"  "../inc/max549.c"
+inc/subdir_rules.mk:9: recipe for target 'inc/max549.obj' failed
+error: option --define is missing its parameter 'NAME[=value]'
+gmake: *** [inc/max549.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

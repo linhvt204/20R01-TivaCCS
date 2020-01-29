@@ -1,0 +1,232 @@
+[
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrH-ew1BEE0DEU&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrH-ew1BEE0DEU",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrH-ew1BEE0DEU?extname=.h",
+    "linkType": "local",
+    "name": "Board.h",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "Board.h",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHAC2AGluorjM&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHAC2AGluorjM",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHAC2AGluorjM?extname=.c",
+    "linkType": "local",
+    "name": "EK_TM4C123GXL.c",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "EK_TM4C123GXL.c",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHwMGCEjHJ3yY&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHwMGCEjHJ3yY",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHwMGCEjHJ3yY?extname=.cmd",
+    "linkType": "local",
+    "name": "EK_TM4C123GXL.cmd",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "EK_TM4C123GXL.cmd",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHqKC9UHZfZBk&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHqKC9UHZfZBk",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHqKC9UHZfZBk?extname=.h",
+    "linkType": "local",
+    "name": "EK_TM4C123GXL.h",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "EK_TM4C123GXL.h",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHtUvTcr9kAzU&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHtUvTcr9kAzU",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHtUvTcr9kAzU?extname=.defs",
+    "linkType": "local",
+    "name": "makefile.defs",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "makefile.defs",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHzHwYz2fbP00&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHzHwYz2fbP00",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHzHwYz2fbP00?extname=.c",
+    "linkType": "local",
+    "name": "sockets.c",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "sockets.c",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHCEQX4zYIhtM&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHCEQX4zYIhtM",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHCEQX4zYIhtM?extname=.h",
+    "linkType": "local",
+    "name": "sockets.h",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "sockets.h",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHYr3cD0OQL_k&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHYr3cD0OQL_k",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHYr3cD0OQL_k?extname=.c",
+    "linkType": "local",
+    "name": "tcpEchoCC3X00.c",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "tcpEchoCC3X00.c",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHzMxiKHF92ww&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHzMxiKHF92ww",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHzMxiKHF92ww?extname=.cfg",
+    "linkType": "local",
+    "name": "tcpEchoCC3X00.cfg",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "tcpEchoCC3X00.cfg",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_tivac__2.16.00.08&download=true",
+    "makeofflineLink": "api/bundles?vids=tirtos_tivac__2.16.00.08",
+    "removeofflineLink": "api/resources?id=SrHScvBiXTSiFs&path=Software/TI-RTOS for TivaC/Development Tools/EK-TM4C123GXL/Network Examples/WiFi Examples/TCP Echo for CC3X00&removeoffline=true",
+    "_id": "SrHScvBiXTSiFs",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "devtools": [
+      "EK-TM4C123GXL"
+    ],
+    "link": "api/linkTo/SrHScvBiXTSiFs?extname=.txt",
+    "linkType": "local",
+    "name": "tcpEchoCC3X00_readme.txt",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "parentID": "SrHIXe8FOBNvPA",
+    "resourceType": "file",
+    "shortDescription": "The TCP Echo example showing how to use sockets with the SimpleLink Wi-Fi CC3X00",
+    "type": "resource",
+    "text": "tcpEchoCC3X00_readme.txt",
+    "url": "/api/resources?devtool=EK-TM4C123GXL&package=com.ti.SIMPLELINK_CC13X0_SDK__3.20.00.23::com.ti.SIMPLELINK_CC13X2_26X2_SDK__3.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK__3.40.00.10::com.ti.SIMPLELINK_MSP432_SDK__3.40.00.05::com.ti.SIMPLELINK_MSP432E4_SDK__3.40.00.08::com.ti.SIMPLELINK_CC32XX_SDK__3.30.01.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__3.20.00.24::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__2.40.00.22::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::com.ti.AWS_CC32XX__3.30.00.03::com.ti.AWS_MSP432E4__3.30.00.03::com.ti.WATSON_MSP432E4__1.20.00.04::com.ti.WATSON_CC32XX__1.20.00.04::com.ti.SAIL__1.40.00.00::com.ti.AZURE_CC32XX__3.30.00.02::com.ti.AZURE_MSP432E4__3.30.00.02::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.mmwave_industrial_toolbox__4.2.0::com.ti.mmwave_automotive_toolbox__2.9.0::c2000ware_software_package__2.01.00.00::digital_power_c2000ware_sdk_software_package__2.00.01.00::motor_control_c2000ware_sdk_software_package__2.01.00.00::powerSUITE_software_package__2.05.01.00::msp430ware__3.80.07.00::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.6::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.25.2::sitara__1.02.00.00::tm4c__2.1.4.178::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::xdctools__3.51.02.21::com.ti.SIMPLELINK_BLE_PLUGIN_AZURE_GATEWAY_EXAMPLE_PACK__3.20.00.22::com.ti.SIMPLELINK_SDK_LVGL_PLUGIN__3.30.00.06::com.ti.ti154stack_linux_x64__3.30.00.12::ascstudio__1.0.0.0&path=Software/TI-RTOS%20for%20TivaC/Development%20Tools/EK-TM4C123GXL/Network%20Examples/WiFi%20Examples/TCP%20Echo%20for%20CC3X00",
+    "packageOrder": 315
+  }
+]

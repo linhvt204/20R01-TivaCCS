@@ -1,0 +1,9 @@
+
+**** Build of configuration Debug for project 20P01_BlinkGreenLed ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: '20P01_BlinkGreenLed.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

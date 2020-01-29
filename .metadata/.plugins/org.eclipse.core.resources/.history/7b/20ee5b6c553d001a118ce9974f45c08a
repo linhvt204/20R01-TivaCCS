@@ -1,0 +1,22 @@
+/*******************************************************************************
+ *  Name of files:  InitUART.c
+ *  Description:
+ *
+ * Linh Vu - vu.t.linh204.work@gmail.com
+ * Freelance
+ * October 2019
+ * Built with CCS v.9.2
+
+ ********************************************************************************/
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+#include "driverlib/uart.h"
+#include "utils/uartstdio.h"
+
+void Init_UART0(void)
+{
+
+}

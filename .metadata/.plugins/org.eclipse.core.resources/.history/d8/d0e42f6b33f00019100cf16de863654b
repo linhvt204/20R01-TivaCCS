@@ -1,0 +1,14 @@
+/*******************************************************************************
+ *  Name of files: Pm2.5_sensor
+ *  Description: Cảm biến bụi siêu mịn 2.5 sử dụng launchpad tm4c123gh6pm
+ *      - Complete design for PM 2.5 detection (in a car or room)
+ *      - Low power system and can provide the PM2.5 level and shoot an alarm/notification
+ *      - Be able to extend and communicate with Bluetooth/IoT device
+ *      - Be based on TM4C123, CC3220
+ *
+ * Linh Vu - K60
+ * HaNoi Unversity of Science and Technology (HUST)
+ * 16 October 2019
+ * Built with CCS v.9
+
+********************************************************************************/

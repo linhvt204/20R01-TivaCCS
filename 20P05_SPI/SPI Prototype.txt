@@ -1,0 +1,50 @@
+/-------------------------------------------------------------------------------------------
+/-------------------------------------------------------------------------------------------
+@filename:		SPI Prototype
+@destription:	
+@author:		Linh Vu
+@date:			01/23/20
+@note:
+/-------------------------------------------------------------------------------------------
+/-------------------------------------------------------------------------------------------
+
+Giao thức SPI được phát triển bởi Motorola vào năm 1980:
+
+Chỉ có duy nhất một thiết bị Master nhưng có nhiều Slave
+Bus SPI bao gồm 4 tín hiệu
++ MOSI (Master-out/Slave-in):	Cổng ra của bên Master và cổng vào của bên Slave, dành cho việc truyền dữ liệu từ Master đến Slave
++ MISO (Master-in/Slave-out):	Cổng vào của bên Master và cổng ra của bên Slave, dành cho việc truyền dữ liệu từ Slave đến Master
++ SCK (SCLK)				: 	Xung giữ nhịp cho giao tiếp SPI
++ CS  (SS)					:	Chọn chip
+Trong UART, I2C và SPI thì tốc độ truyền của SPI là cao nhất
+Thông thường nó sẽ gần 4 dây nên người ta còn gọi đây là chuẩn giao tiếp 4 dây:
+---------------------	     ----------------------|
+|			MOSI 	|------->|  MOSI			   |
+|					| |		 |					   |
+|Processor	MISO	|<-------|	MISO	Peripheral |
+|(Master) 			| |	|	 |			(Slave)	   |
+|			SCK		|------->|	SCK				   |
+|					| |	| |	 |					   |
+|			CS1		|------->|	CS				   |
+|					| | | |	 |					   |
+|			CS2		| |	| |	 |					   |	
+|-------------------| | | |	 |---------------------|
+				|	  |	| |_________ SCK2			
+				|	  |	|___________ MISO2
+				|	  |_____________ MOSI2
+				|___________________ CS2
+				.............................
+Tuy có thể có nhiều Slave cùng kết nối với Master trong bus nhưng tại một thời điểm chỉ có duy nhất một Slave giao tiếp với Master
+Hình thức trao đổi dữ liệu là trao đổi dữ liệu giữa hai thanh ghi dịch.
+Đối với mỗi byte dữ liệu được truyền từ mỗi thiết bị, SPI sẽ cần 8 chu kỳ clock.
+Tuỳ thuộc vào cách cài đặt Clock Polarity và Clock Phase, có tổng cộng 4 chế độ hoạt động của SPI
+Mode 0: Trao đổi khi CPOL = 0 & CPHA = 0 (Cạnh lên của xung Clock)
+Mode 1: Trao đổi khi CPOL = 0 & CPHA = 1 (Cạnh xuống của xung Clock)
+Mode 2: Trao đổi khi CPOL = 1 & CPHA = 0 (Cạnh lên của xung Clock)
+Mode 3: Trao đổi khi CPOL = 1 & CPHA = 1 (Cạnh lên của xung Clock)
+Có hai loại cấu hình trong các thiết bị SPI kết nối tron cùng một Bus SPI.
++Cấu hình Independent Slave Configuration
+Các chân MOSI, MISO và SCLK được kết nối cùng với nhau
+Đối với thêm các Slave thì bên Master chỉ cần thêm duy nhất 1 chân ~CS
++Cấu hình Daisy Chain
+Hơi phức tạp hơn một chút, hãy làm quen với với cấu hình Independent Slave.

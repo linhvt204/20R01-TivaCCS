@@ -1,0 +1,98 @@
+/*******************************************************************************
+ *  Name of files: Read me_API_ST7735
+ *  Description: 
+ * 	Cách sử dụng các hàm được xây dựng sẵn trong file ST7735.c hay còn là thư viện
+ * 	cho màn hình tft ST7735.
+ *	Loại màn hình có kích thước 1.44" với độ điểm ảnh 128x128.
+ *	
+ * Linh Vu - K60
+ * HaNoi Unversity of Science and Technology (HUST)
+ * June 2019
+ * Built with CCS v.9.2
+
+********************************************************************************/
+	Như vậy ta sẽ xem màn hình là một ma trận vuông 128x128, mỗi khi ta ghi vào một điểm
+	thì những điểm còn lại sẽ không thay đổi.
+	
+	Lưu ý rằng có tổng cộng 33 hàm con để thực hiện hiển thị trên màn hình sử dụng SPI
+	QUAN TRỌNG: https://community.arduboy.com/t/reference-page-for-development/76/2
+		Thư viện mọi hàm vẽ: https://lang-ship.com/reference/M5StickC/0.0.5/class_t_f_t__e_s_p_i.html#abb9c90cb9b6f294f13fa567f8248631d
+	1/ uint16_t Colour565(uint8_t r, uint8_t g, uint8_t b) 
+	2/ void drawBitmap(int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h,
+            uint16_t colour, uint16_t bg)
+            Hàm này vẽ từ file ảnh Bitmap vào tft. Lưu ý ở đây chỉ vẽ được hai màu. 
+            	+ x,y là toạ độ bắt đầu, thường là (0; 0)
+            	+ *bitmap là một array của bit map, ví dụ như file quyet_gay.h chứa *bitmap là quyet_gay[]
+            	+ w,h lần lượt là chiều rộng và chiều cao
+            	+ colour là màu chính để vẽ, bg là màu background.
+            Từ file bmp quyet_gay.bmp ta có thể vào các trang chuyển đổi bmp sang .c như https://littlevgl.com/image-to-c-array để cho ta file quyet_gay.h (lưu ý rotation ảnh bmp).            
+    3/ void drawChar(int16_t x, int16_t y, unsigned char c,
+          uint16_t colour, uint16_t bg, uint8_t size)
+          Hàm này chỉ gửi một kí tự duy nhất ra tft. Ví dụ 'x' hoặc 'a', size tuỳ chọn
+    4/ void drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t colour) 
+    			+ x0, y0 là tâm hình tròn, r là bán kính
+    5/ void drawCircleHelper( int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t colour)
+    			+ x0, y0 là tâm hình tròn, r là bán kính
+    			+ cornername nên để dạng bit ví dụ 0b0001 tức chỉ vẽ 1/4 vòng tròn. 0b0011 vẽ 1/2 vòng tròn
+    			Ex: drawCircleHelper(64, 64, 30, 0b1111, ST7735_RED); 
+    6/ void drawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t colour)
+    		Hàm này vẽ một đường thằng về phía bên phải.
+    			+ x, y là toạ độ điểm bắt đầu
+    			+ w là độ dài đường thẳng
+    			+ colour là màu của đường thẳng
+    7/ void drawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t colour)
+    		Hàm này vẽ một hai đường, giống hai cạnh góc vuông của một tam giác vuông cân. Hướng từ trái sang phải, từ trên xuống dưới
+    			+ x, y là tạo độ điểm bẳt đầu
+    			+ h là độ dài đường thằng 
+    8/ void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t colour)
+    		Hàm này dễ hiểu
+    9/ void drawPixel(int16_t x, int16_t y, uint16_t colour)
+    		Hàm này dễ hiểu
+    10/ void drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t colour)
+    		Hàm này để vẽ một hình chữ nhật
+    			+ x, y là điểm bắt đầu
+    			+ w là chiều rộng, h là chiều dài
+    11/ void drawRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, uint16_t colour) 
+    		Hàm này cũng vẽ hình vuông nhưng có góc bo tròn
+    			+ r tượng trưng cho độ bo
+    12/ void drawString(char *c, int16_t x, int16_t y, uint16_t colour, uint16_t bg, uint8_t size)
+    		Hàm này dễ
+    13/ void drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
+        int16_t x2, int16_t y2, uint16_t colour) 
+        	Hàm này vẽ một tam giác từ toạ độ ba điểm
+    14/ void drawXBitmap(int16_t x, int16_t y, const uint8_t *bitmap, 
+            int16_t w, int16_t h, uint16_t colour) 
+            Hàm này khá giống hàm Bitmap, tuy nhiên sẽ trả về ảnh không cần xoay trước khi nạp. Lưu ý dạng file ảnh ở đây cần đưa về là .xbm khác với hàm Bitmap là .bmp.
+    15/	void fillCircle(int16_t x0, int16_t y0, int16_t r, uint16_t colour) 
+    		Hàm này dễ
+    16/ void fillCircleHelper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, 
+      int16_t delta, uint16_t colour) 
+      		Hàm này dễ
+    17/ void fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
+  uint16_t colour) 
+  			Hàm này dễ
+    18/ void fillRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, 
+        int16_t r, uint16_t colour) 
+        	Hàm này dễ
+    19/ void fillScreen(uint16_t colour) 
+    		Hàm này dễ
+    20/ void fillTriangle ( int16_t x0, int16_t y0, int16_t x1, int16_t y1,
+          int16_t x2, int16_t y2, uint16_t colour) 
+          	Hàm này dễ
+    21/ void invertDisplay(int8_t i) 
+    		Hàm này dễ
+    22/ void LcdInit(void) 
+    23/ void pushColour(uint16_t colour) 
+    24/ void setAddrWindow(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1) 
+    25/ void setCursor(int16_t x, int16_t y) 
+    26/ void setRotation(uint8_t m) 
+    27/ void setTextColour(uint16_t c, uint16_t b) 
+    28/ void setTextSize(uint8_t s) 
+    29/ void setTextWrap(uint16_t w) 
+    30/ void spiWrite(uint8_t c) 
+    31/ uint16_t swapColour(uint16_t x) 
+    32/ void writeCommand(uint8_t c) 
+    33/ void writeData(uint8_t c)
+    
+    
+  

@@ -1,0 +1,47 @@
+/*******************************************************************************
+ *  Name of files: API_System_Tick(SysTick) Guide
+ *  Description:
+ * Linh Vu - vu.t.linh204.work@gmail.com
+ * Freelance
+ * 16 October 2019
+ * Built with CCS v.9
+
+********************************************************************************/
+
+	Có tổng cộng 9 API Functions của System Tick
+	1/ void SysTickDisable (void)
+		Dừng thanh ghi của SysTick, ví dụ khi có một chương trình ngắt được khai báo, 
+		mình cần tạm dừng giá trị thanh ghi counter SysTIck
+		
+	2/ void SysTickEnable (void)
+		Hàm này và hàm 1 là đối nghĩa nhau, nó sẽ khởi động bộ đếm SysTick. Ta sử
+		dụng hàm này khi muốn giá trị thanh ghi đếm tiếp tục từ thời điểm ta dừng
+		nó. Tức thanh ghi sẽ tiếp tục đếm từ giá trị bị ngừng chứ không phải reload
+		lại giá trị 
+		
+	3/ void SysTickIntDisable (void)
+		Hàm này disable ngắt từ SysTick
+	
+	4/ void SysTickIntEnable (void)
+		Hàm này cho phép nguồn ngắt từ SysTick
+		Lưu ý: Chương trình ngắt của SysTick không cần phải xoá nguồn ngắt với bị nó 
+		đã được xoá tự động bởi NVIC khi chương trình ngắt được gọi đến.
+	
+	5/ void SysTickIntRegister (void (*pfnHandller) (void))
+		Đây là chương trình gọi đến một chương trình khác khi có báo ngắt
+	
+	6/ void SysTickIntUnregister (void)
+		Không cho phép chương trình kia là chương trình đích khi gọi ngắt nữa. Ta có thể
+		làm với chương trình con khác hoặc không làm gì đến ngắt nữa
+	
+	7/ uint32_t SysTickPeriodGet (void)
+		Trả về chu kỳ(độ lớn) của thanh ghi SysTick)
+		
+	8/ void SysTickPeriodSet (uint32_t ui32Period)
+		Cài đặt giá trị thanh ghi SysTick
+		Lưu ý đây là thanh ghi 24 bit nên giá trị tối đa được phép ghi là 2^24. Vậy với 80Mhz thì thời gian tối đa
+	
+	9/ uint32_t SysTickValueGet (void)
+		Trả về giá trị hiện tại của thanh ghi SysTick, bao gồm cả giá trị -1 và 0
+		
+		// SysTick handler ở bảng ngắt chỉ có duy nhất một địa chỉ ở dòng 85 trong file tm4c123gh6pm_startup_ccs.c

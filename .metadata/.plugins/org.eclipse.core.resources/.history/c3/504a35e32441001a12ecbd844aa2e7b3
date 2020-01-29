@@ -1,0 +1,15 @@
+/*******************************************************************************
+ *  Name of files:  InitComparator.c
+ *  Description:
+ *
+ * Linh Vu - vu.t.linh204.work@gmail.com
+ * Freelance
+ * October 2019
+ * Built with CCS v.9.3
+
+ ********************************************************************************/
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <user_init/InitInc.h>

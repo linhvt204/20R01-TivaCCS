@@ -1,0 +1,73 @@
+/******************************************************************************
+ * Name of files:   20P05_SPI
+ * Description:
+ *
+ * Linh Vu - vu.t.linh204.work@gmail.com
+ * Free
+ * January 2020
+ * Built with CCS v.9.2
+
+ *******************************************************************************/
+
+/*******************************************************************************
+ *                              Include Files
+ *******************************************************************************/
+//  Standard includes
+#include <stdint.h>                         // Library of Standard Integer Types
+#include <stdbool.h>                        // Library of Standard Boolean Types
+#include <stdlib.h>                         // Standard Library
+#include <string.h>                         // Library for String functions
+#include <inttypes.h>                       // Library for conversions to Integer types
+//  Tivaware includes
+#include "inc/hw_types.h"
+#include "inc/hw_memmap.h"
+#include "driverlib/pin_map.h"
+#include "driverlib/debug.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/gpio.h"
+#include "driverlib/systick.h"
+#include "driverlib/adc.h"
+//  Project includes
+#include "user_init/delay.h"
+#include "user_init/InitGPIO.h"
+#include "user_init/InitSysCtl.h"
+#include "user_init/InitSSI.h"
+#include "pinout.h"
+/*******************************************************************************
+ *                              Global Variables
+ *******************************************************************************/
+
+/*******************************************************************************
+ *                              Function Prototypes
+ *******************************************************************************/
+
+/*******************************************************************************
+ *                              Main Program
+ *******************************************************************************/
+
+int main(void)
+{
+    Init_SysCtl(80);
+    PinoutSet();
+    Init_SSI0();
+    while (1)
+    {
+        while (SSIBusy(SSI0_BASE))
+        {
+        }
+        SSIDataPut(SSI0_BASE, 0x33);
+        while (SSIBusy(SSI0_BASE))
+        {
+        }
+        SSIDataGet(SSI0_BASE, 0x80); //Puts a data element into the SSI transmit FIFO
+        while (SSIBusy(SSI0_BASE))
+        {
+        }
+        SSIDataGet(SSI0_BASE, &buffer)
+    }
+}
+
+/*******************************************************************************
+ *                              Function Definition
+ *******************************************************************************/
+

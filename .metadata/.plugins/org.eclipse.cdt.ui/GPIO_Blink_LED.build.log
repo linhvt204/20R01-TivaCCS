@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project GPIO_Blink_LED ****
+
+"C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'GPIO_Blink_LED.out' is up to date.
+
+**** Build Finished ****
