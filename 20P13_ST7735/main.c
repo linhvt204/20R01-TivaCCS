@@ -1,5 +1,5 @@
 /*******************************************************************************
- *  Name of files: St7735
+ *  Name of files: 20P13_ST7735
  *  Description:
  *  Kết nối tm4c launchpad với màn hình tft 1.44" (Độ phân giải ~128x128) qua
  *  chuẩn giao tiếp SPI

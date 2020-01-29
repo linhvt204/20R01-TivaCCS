@@ -1,5 +1,5 @@
 /******************************************************************************
- * Name of files:   20P01_DefaultPrj
+ * Name of files:   20P10_Comparator
  * Description:
  *
  * Linh Vu - vu.t.linh204.work@gmail.com

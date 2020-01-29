@@ -1,5 +1,5 @@
 /******************************************************************************
- * Name of files:   20P03_ADC
+ * Name of files:   20P03_BLINKY
  * Description:
  *
  * Linh Vu - vu.t.linh204.work@gmail.com
