@@ -42,4 +42,3 @@
 #include "user_init/InitPWM.h"
 #include "user_init/InitComparator.h"
 #include "user_init/InitHibernation.h"
-#include "pinout.h"
