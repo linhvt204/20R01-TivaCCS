@@ -4,6 +4,9 @@ Makefile linguist-generated=true
 Makefile linguist-language=C
 makefile linguist-language=C
 
+*.mk linguist-generated=true
+*.mk linguist-language=C
+
 # Object files
 *.o linguist-detectable=true
 *.ko linguist-detectable=true
