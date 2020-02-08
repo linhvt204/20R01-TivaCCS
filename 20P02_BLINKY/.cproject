@@ -88,6 +88,16 @@
 							<tool id="com.ti.ccstudio.buildDefinitions.sysConfig.1609891629" name="SysConfig" superClass="com.ti.ccstudio.buildDefinitions.sysConfig"/>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.TMS470.Debug.1844284247.456203241" name="/" resourcePath="Debug/user_init">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.TMS470_18.12.exe.DebugToolchain.1842868447" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.TMS470_18.12.exe.DebugToolchain" unusedChildren="">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.587218993.131081011" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.587218993"/>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.214138424.413104910" name="Compiler version" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.214138424"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_18.12.exe.compilerDebug.508217640" name="ARM Compiler" superClass="com.ti.ccstudio.buildDefinitions.TMS470_18.12.exe.compilerDebug.1935667397"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_18.12.exe.linkerDebug.1478519336" name="ARM Linker" superClass="com.ti.ccstudio.buildDefinitions.TMS470_18.12.exe.linkerDebug.1713831494"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.TMS470_18.12.hex.1542334525" name="ARM Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.TMS470_18.12.hex.58144442"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.sysConfig.351159379" name="SysConfig" superClass="com.ti.ccstudio.buildDefinitions.sysConfig.1609891629"/>
+						</toolChain>
+					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
