@@ -14,15 +14,19 @@ ORDERED_OBJS += \
 "./main.obj" \
 "./tm4c123gh6pm_startup_ccs.obj" \
 "./user_init/InitADC.obj" \
+"./user_init/InitComparator.obj" \
 "./user_init/InitFPU.obj" \
 "./user_init/InitGPIO.obj" \
+"./user_init/InitHibernation.obj" \
 "./user_init/InitI2C.obj" \
+"./user_init/InitLED.obj" \
 "./user_init/InitPWM.obj" \
 "./user_init/InitSSI.obj" \
 "./user_init/InitSysCtl.obj" \
 "./user_init/InitSysTick.obj" \
 "./user_init/InitTimer.obj" \
 "./user_init/InitUART.obj" \
+"./user_init/InitWTimer.obj" \
 "./user_init/delay.obj" \
 "./user_init/uartstdio.obj" \
 "../tm4c123gh6pm.cmd" \
@@ -173,8 +177,8 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "syscfg\pinout.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" "user_init\InitADC.obj" "user_init\InitFPU.obj" "user_init\InitGPIO.obj" "user_init\InitI2C.obj" "user_init\InitPWM.obj" "user_init\InitSSI.obj" "user_init\InitSysCtl.obj" "user_init\InitSysTick.obj" "user_init\InitTimer.obj" "user_init\InitUART.obj" "user_init\delay.obj" "user_init\uartstdio.obj" 
-	-$(RM) "syscfg\pinout.d" "main.d" "tm4c123gh6pm_startup_ccs.d" "user_init\InitADC.d" "user_init\InitFPU.d" "user_init\InitGPIO.d" "user_init\InitI2C.d" "user_init\InitPWM.d" "user_init\InitSSI.d" "user_init\InitSysCtl.d" "user_init\InitSysTick.d" "user_init\InitTimer.d" "user_init\InitUART.d" "user_init\delay.d" "user_init\uartstdio.d" 
+	-$(RM) "syscfg\pinout.obj" "main.obj" "tm4c123gh6pm_startup_ccs.obj" "user_init\InitADC.obj" "user_init\InitComparator.obj" "user_init\InitFPU.obj" "user_init\InitGPIO.obj" "user_init\InitHibernation.obj" "user_init\InitI2C.obj" "user_init\InitLED.obj" "user_init\InitPWM.obj" "user_init\InitSSI.obj" "user_init\InitSysCtl.obj" "user_init\InitSysTick.obj" "user_init\InitTimer.obj" "user_init\InitUART.obj" "user_init\InitWTimer.obj" "user_init\delay.obj" "user_init\uartstdio.obj" 
+	-$(RM) "syscfg\pinout.d" "main.d" "tm4c123gh6pm_startup_ccs.d" "user_init\InitADC.d" "user_init\InitComparator.d" "user_init\InitFPU.d" "user_init\InitGPIO.d" "user_init\InitHibernation.d" "user_init\InitI2C.d" "user_init\InitLED.d" "user_init\InitPWM.d" "user_init\InitSSI.d" "user_init\InitSysCtl.d" "user_init\InitSysTick.d" "user_init\InitTimer.d" "user_init\InitUART.d" "user_init\InitWTimer.d" "user_init\delay.d" "user_init\uartstdio.d" 
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
 	-@echo 'Finished clean'
 	-@echo ' '

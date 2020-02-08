@@ -12,6 +12,13 @@ user_init/InitADC.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/C
 	@echo 'Finished building: "$<"'
 	@echo ' '
 
+user_init/InitComparator.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitComparator.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/user_init" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="user_init/InitComparator.d_raw" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj/Debug/syscfg" --obj_directory="user_init" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
 user_init/InitFPU.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitFPU.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
 	@echo 'Building file: "$<"'
 	@echo 'Invoking: ARM Compiler'
@@ -26,10 +33,24 @@ user_init/InitGPIO.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/
 	@echo 'Finished building: "$<"'
 	@echo ' '
 
+user_init/InitHibernation.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitHibernation.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/user_init" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="user_init/InitHibernation.d_raw" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj/Debug/syscfg" --obj_directory="user_init" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
 user_init/InitI2C.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitI2C.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
 	@echo 'Building file: "$<"'
 	@echo 'Invoking: ARM Compiler'
 	"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/user_init" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="user_init/InitI2C.d_raw" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj/Debug/syscfg" --obj_directory="user_init" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+user_init/InitLED.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitLED.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/user_init" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="user_init/InitLED.d_raw" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj/Debug/syscfg" --obj_directory="user_init" $(GEN_OPTS__FLAG) "$<"
 	@echo 'Finished building: "$<"'
 	@echo ' '
 
@@ -72,6 +93,13 @@ user_init/InitUART.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/
 	@echo 'Building file: "$<"'
 	@echo 'Invoking: ARM Compiler'
 	"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/user_init" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="user_init/InitUART.d_raw" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj/Debug/syscfg" --obj_directory="user_init" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: "$<"'
+	@echo ' '
+
+user_init/InitWTimer.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitWTimer.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
+	@echo 'Building file: "$<"'
+	@echo 'Invoking: ARM Compiler'
+	"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/user_init" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="user_init/InitWTimer.d_raw" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P01_0DefaultPrj/Debug/syscfg" --obj_directory="user_init" $(GEN_OPTS__FLAG) "$<"
 	@echo 'Finished building: "$<"'
 	@echo ' '
 

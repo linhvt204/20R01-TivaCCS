@@ -1,17 +1,17 @@
 ******************************************************************************
                   TI ARM Linker PC v18.12.4                    
 ******************************************************************************
->> Linked Fri Jan 24 03:26:30 2020
+>> Linked Sat Feb  8 14:04:39 2020
 
 OUTPUT FILE NAME:   <20P11_SYSTICK.out>
-ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 000006fd
+ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 00000711
 
 
 MEMORY CONFIGURATION
 
          name            origin    length      used     unused   attr    fill
 ----------------------  --------  ---------  --------  --------  ----  --------
-  FLASH                 00000000   00040000  000007ae  0003f852  R  X
+  FLASH                 00000000   00040000  000007c2  0003f83e  R  X
   SRAM                  20000000   00008000  00000200  00007e00  RW X
 
 
@@ -19,9 +19,9 @@ SEGMENT ALLOCATION MAP
 
 run origin  load origin   length   init length attrs members
 ----------  ----------- ---------- ----------- ----- -------
-00000000    00000000    000007ae   000007ae    r-x
+00000000    00000000    000007c2   000007c2    r-x
   00000000    00000000    0000026c   0000026c    r-- .intvecs
-  0000026c    0000026c    00000542   00000542    r-x .text
+  0000026c    0000026c    00000556   00000556    r-x .text
 20000000    20000000    00000200   00000000    rw-
   20000000    20000000    00000200   00000000    rw- .stack
 
@@ -34,24 +34,24 @@ section   page    origin      length       input sections
 .intvecs   0    00000000    0000026c     
                   00000000    0000026c     tm4c123gh6pm_startup_ccs.obj (.intvecs)
 
-.text      0    0000026c    00000542     
+.text      0    0000026c    00000556     
                   0000026c    00000132     driverlib.lib : gpio.obj (.text:GPIOPadConfigSet)
                   0000039e    00000002     --HOLE-- [fill = 0]
                   000003a0    00000114     InitSysTick.obj (.text)
                   000004b4    000000f4     driverlib.lib : sysctl.obj (.text:SysCtlClockSet)
                   000005a8    000000b8     InitLED.obj (.text)
-                  00000660    00000038     driverlib.lib : sysctl.obj (.text:SysCtlPeripheralReady)
-                  00000698    00000034                   : sysctl.obj (.text:SysCtlPeripheralEnable)
-                  000006cc    00000030     InitSysCtl.obj (.text)
-                  000006fc    0000002c     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noinit_noargs:_c_int00_noinit_noargs)
-                  00000728    0000002a     driverlib.lib : gpio.obj (.text:GPIODirModeSet)
-                  00000752    00000002     --HOLE-- [fill = 0]
-                  00000754    00000028     main.obj (.text)
-                  0000077c    00000018     driverlib.lib : gpio.obj (.text:GPIOPinTypeGPIOOutput)
-                  00000794    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
-                  000007a0    00000006     driverlib.lib : sysctl.obj (.text:SysCtlDelay)
-                  000007a6    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
-                  000007aa    00000004                                   : exit.c.obj (.text:abort:abort)
+                  00000660    00000044     InitSysCtl.obj (.text)
+                  000006a4    00000038     driverlib.lib : sysctl.obj (.text:SysCtlPeripheralReady)
+                  000006dc    00000034                   : sysctl.obj (.text:SysCtlPeripheralEnable)
+                  00000710    0000002c     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noinit_noargs:_c_int00_noinit_noargs)
+                  0000073c    0000002a     driverlib.lib : gpio.obj (.text:GPIODirModeSet)
+                  00000766    00000002     --HOLE-- [fill = 0]
+                  00000768    00000028     main.obj (.text)
+                  00000790    00000018     driverlib.lib : gpio.obj (.text:GPIOPinTypeGPIOOutput)
+                  000007a8    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
+                  000007b4    00000006     driverlib.lib : sysctl.obj (.text:SysCtlDelay)
+                  000007ba    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
+                  000007be    00000004                                   : exit.c.obj (.text:abort:abort)
 
 .cinit     0    00000000    00000000     UNINITIALIZED
 
@@ -75,9 +75,9 @@ MODULE SUMMARY
     .\user_init\
        InitSysTick.obj                276    0         0      
        InitLED.obj                    184    0         0      
-       InitSysCtl.obj                 48     0         0      
+       InitSysCtl.obj                 68     0         0      
     +--+------------------------------+------+---------+---------+
-       Total:                         508    0         0      
+       Total:                         528    0         0      
                                                               
     C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib
        gpio.obj                       372    0         0      
@@ -94,28 +94,28 @@ MODULE SUMMARY
                                                               
        Stack:                         0      0         512    
     +--+------------------------------+------+---------+---------+
-       Grand Total:                   1342   620       512    
+       Grand Total:                   1362   620       512    
 
 
 GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
 
 address   name                  
 -------   ----                  
-000007ab  C$$EXIT               
-00000729  GPIODirModeSet        
+000007bf  C$$EXIT               
+0000073d  GPIODirModeSet        
 0000026d  GPIOPadConfigSet      
-0000077d  GPIOPinTypeGPIOOutput 
+00000791  GPIOPinTypeGPIOOutput 
 0000064d  Init_B                
 00000641  Init_G                
 000005a9  Init_Led              
 00000635  Init_R                
-000006cd  Init_SysCtl           
+00000661  Init_SysCtl           
 000003a1  Init_SysTick          
-00000795  ResetISR              
+000007a9  ResetISR              
 000004b5  SysCtlClockSet        
-000007a1  SysCtlDelay           
-00000699  SysCtlPeripheralEnable
-00000661  SysCtlPeripheralReady 
+000007b5  SysCtlDelay           
+000006dd  SysCtlPeripheralEnable
+000006a5  SysCtlPeripheralReady 
 000003bd  SysTick_Wait          
 0000047d  SysTick_Wait1h        
 00000457  SysTick_Wait1m        
@@ -133,12 +133,12 @@ ffffffff  __binit__
 ffffffff  __c_args__            
 UNDEFED   __mpu_init            
 20000000  __stack               
-000006fd  _c_int00_noinit_noargs
-000007a7  _system_pre_init      
-000007ab  abort                 
+00000711  _c_int00_noinit_noargs
+000007bb  _system_pre_init      
+000007bf  abort                 
 ffffffff  binit                 
 00000000  g_pfnVectors          
-00000755  main                  
+00000769  main                  
 
 
 GLOBAL SYMBOLS: SORTED BY Symbol Address 
@@ -161,18 +161,18 @@ address   name
 00000635  Init_R                
 00000641  Init_G                
 0000064d  Init_B                
-00000661  SysCtlPeripheralReady 
-00000699  SysCtlPeripheralEnable
-000006cd  Init_SysCtl           
-000006fd  _c_int00_noinit_noargs
-00000729  GPIODirModeSet        
-00000755  main                  
-0000077d  GPIOPinTypeGPIOOutput 
-00000795  ResetISR              
-000007a1  SysCtlDelay           
-000007a7  _system_pre_init      
-000007ab  C$$EXIT               
-000007ab  abort                 
+00000661  Init_SysCtl           
+000006a5  SysCtlPeripheralReady 
+000006dd  SysCtlPeripheralEnable
+00000711  _c_int00_noinit_noargs
+0000073d  GPIODirModeSet        
+00000769  main                  
+00000791  GPIOPinTypeGPIOOutput 
+000007a9  ResetISR              
+000007b5  SysCtlDelay           
+000007bb  _system_pre_init      
+000007bf  C$$EXIT               
+000007bf  abort                 
 20000000  __stack               
 20000200  __STACK_END           
 20000200  __STACK_TOP           

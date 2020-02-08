@@ -31,6 +31,8 @@ main.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ssi.h
 main.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/timer.h
 main.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h
 main.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/pwm.h
+main.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/comp.h
+main.obj: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/hibernate.h
 main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/delay.h
 main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitADC.h
 main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitFPU.h
@@ -46,6 +48,8 @@ main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer
 main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/uartstdio.h
 main.obj: C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h
 main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitWTimer.h
+main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitComparator.h
+main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitHibernation.h
 main.obj: E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/20P07_PWM/Debug/syscfg/pinout.h
 
 ../main.c: 
@@ -79,6 +83,8 @@ C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ssi.h:
 C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/timer.h: 
 C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h: 
 C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/pwm.h: 
+C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/comp.h: 
+C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/hibernate.h: 
 E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/delay.h: 
 E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitADC.h: 
 E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitFPU.h: 
@@ -94,4 +100,6 @@ E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/B
 E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/uartstdio.h: 
 C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include/stdarg.h: 
 E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitWTimer.h: 
+E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitComparator.h: 
+E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/user_init/InitHibernation.h: 
 E:/vu.t.linh204.work\ GD/Lop\ Anh\ Tuan/Microcontroller/Code\ Composer\ Studio/Board\ tm4c/20P07_PWM/Debug/syscfg/pinout.h: 

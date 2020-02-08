@@ -17,6 +17,7 @@ org.eclipse.launchbar.core.descriptorType.default\:20P09_WTIMER/activeLaunchMode
 org.eclipse.launchbar.core.descriptorType.default\:20P10_COMPARATOR/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:20P11_SYSTICK/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:20P12_HIBERNATION/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:20P13_ST7735/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:API_ADC/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:API_ADC/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:API_Hibernation/activeLaunchMode=run

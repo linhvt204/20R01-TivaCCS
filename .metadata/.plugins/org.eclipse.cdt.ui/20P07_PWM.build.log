@@ -3,29 +3,7 @@
 
 "C:\\ti\\ccs901\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
  
-Building file: "../main.c"
-Invoking: ARM Compiler
-"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P07_PWM" --include_path="C:/ti/TivaWare_C_Series-2.1.4.178" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/user_init" --include_path="C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw" --include_path="E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c/20P07_PWM/Debug/syscfg"  "../main.c"
-Finished building: "../main.c"
- 
-Building target: "20P07_PWM.out"
-Invoking: ARM Linker
-"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power="4" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"20P07_PWM.map" --heap_size=0 --stack_size=512 -i"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="20P07_PWM_linkInfo.xml" --rom_model -o "20P07_PWM.out" "./syscfg/pinout.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "./user_init/InitADC.obj" "./user_init/InitFPU.obj" "./user_init/InitGPIO.obj" "./user_init/InitI2C.obj" "./user_init/InitLED.obj" "./user_init/InitPWM.obj" "./user_init/InitSSI.obj" "./user_init/InitSysCtl.obj" "./user_init/InitSysTick.obj" "./user_init/InitTimer.obj" "./user_init/InitUART.obj" "./user_init/InitWTimer.obj" "./user_init/delay.obj" "./user_init/uartstdio.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" -l"C:/ti/TivaWare_C_Series-2.1.4.178/grlib/ccs/Debug/grlib.lib" 
-<Linking>
-remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
-Finished building target: "20P07_PWM.out"
- 
-Building files: "20P07_PWM.out"
-Invoking: ARM Hex Utility
-"C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armhex" --ti_txt -o "20P07_PWM.txt"  "20P07_PWM.out" 
-Translating to TI-TXT format...
-   "20P07_PWM.out" .intvecs ==> .intvecs
-   "20P07_PWM.out" .text ==> .text
-   "20P07_PWM.out" .const ==> .const
-   "20P07_PWM.out" .cinit ==> .cinit
-Finished building: "20P07_PWM.out"
- 
-"C:/ti/ccs901/ccs/utils/tiobj2bin/tiobj2bin.bat" "20P07_PWM.out" "20P07_PWM.bin" "C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armofd.exe" "C:/ti/ccs901/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armhex.exe" "C:/ti/ccs901/ccs/utils/tiobj2bin/mkhex4bin.exe"
- 
+gmake[1]: '20P07_PWM.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
 
 **** Build Finished ****
