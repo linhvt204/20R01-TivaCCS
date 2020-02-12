@@ -7,6 +7,7 @@
 #include <stdlib.h>                         // Standard Library
 #include <string.h>                         // Library for String functions
 #include <inttypes.h>                       // Library for conversions to Integer types
+#include <stdio.h>                          // Library for for performing input and output.
 //  Tivaware includes
 #include "inc/hw_types.h"
 #include "inc/hw_memmap.h"

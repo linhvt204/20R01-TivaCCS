@@ -41,7 +41,7 @@ static void IntDefaultHandler(void);
 //
 //*****************************************************************************
 extern void _c_int00(void);
-
+// extern void UART1_Handler(void);
 //*****************************************************************************
 //
 // Linker variable that marks the top of the stack.
@@ -315,8 +315,8 @@ extern void  WaitForInterrupt (void);
 // inputs:  none
 // outputs: none
 void DisableInterrupts(void){
-  __asm ("    CPSID  I\n"
-         "    BX     LR\n");
+    __asm ("    CPSID  I\n"
+           "    BX     LR\n");
 }
 
 //*********** EnableInterrupts ***************
@@ -324,17 +324,17 @@ void DisableInterrupts(void){
 // inputs:  none
 // outputs: none
 void EnableInterrupts(void){
-  __asm  ("    CPSIE  I\n"
-          "    BX     LR\n");
+    __asm  ("   CPSIE  I\n"
+            "   BX     LR\n");
 }
 //*********** StartCritical ************************
 // make a copy of previous I bit, disable interrupts
 // inputs:  none
 // outputs: previous I bit
 void StartCritical(void){
-  __asm  ("    MRS    R0, PRIMASK   ; save old status \n"
-          "    CPSID  I             ; mask all (except faults)\n"
-          "    BX     LR\n");
+ __asm  ("    MRS    R0, PRIMASK  ; save old status \n"
+         "    CPSID  I            ; mask all (except faults)\n"
+         "    BX     LR\n");
 }
 
 //*********** EndCritical ************************
@@ -342,8 +342,8 @@ void StartCritical(void){
 // inputs:  previous I bit
 // outputs: none
 void EndCritical(void){
-  __asm  ("    MSR    PRIMASK, R0\n"
-          "    BX     LR\n");
+    __asm  ("    MSR    PRIMASK, R0\n"
+            "    BX     LR\n");
 }
 
 //*********** WaitForInterrupt ************************
@@ -351,6 +351,6 @@ void EndCritical(void){
 // inputs:  none
 // outputs: none
 void WaitForInterrupt(void){
-  __asm  ("    WFI\n"
-          "    BX     LR\n");
+    __asm  ("    WFI\n"
+            "    BX     LR\n");
 }

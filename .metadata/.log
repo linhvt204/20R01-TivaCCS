@@ -9835,3 +9835,240 @@ java.lang.Exception: Project '20P01_0DefaultPrj' is not open.
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+!SESSION 2020-02-09 11:17:25.106 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2020-02-09 11:17:28.727
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2020-02-09 11:17:28.736
+!MESSAGE debugServerDir=C:/ti/ccs901/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-02-09 11:17:41.801
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-02-09 11:17:41.811
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-02-09 11:17:41.812
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2020-02-09 11:17:57.734
+!MESSAGE CCS IDE session started!
+	CCS build: 9.2.0.00013
+	CCS location: C:/ti/ccs901/ccs
+	Workspace location: E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.635
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.639
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.639
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.641
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.642
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.649
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.660
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.671
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.678
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 11:17:58.727
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2020-02-09 11:17:58.948
+!MESSAGE CCS HTTP adapter started! [ccs.port:54055] - Open 'http://localhost:54055/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-02-09 11:19:30.272
+!MESSAGE Indexed '20P14_ESP8266OPENWEATHERMAP' (18 sources, 62 headers) in 3.52 sec: 2,245 declarations; 8,983 references; 2 unresolved inclusions; 1 syntax errors; 14 unresolved names (0.12%)
+
+!ENTRY org.eclipse.core.resources 4 372 2020-02-09 13:34:16.915
+!MESSAGE Project '20P08_TIMER' is not open.
+!STACK 0
+java.lang.Exception: Project '20P08_TIMER' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:39)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:35)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:207)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1168)
+	at com.ti.ccstudio.project.core.internal.build.ACommandLineGenerator.getMaxCommandLengthProperty(ACommandLineGenerator.java:273)
+	at com.ti.ccstudio.project.ui.views.internal.console.ConsoleViewDecorator$1.textChanged(ConsoleViewDecorator.java:102)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3320)
+	at org.eclipse.jface.text.TextViewer.initializeWidgetContents(TextViewer.java:3368)
+	at org.eclipse.jface.text.TextViewer.setVisibleDocument(TextViewer.java:3407)
+	at org.eclipse.jface.text.TextViewer.setDocument(TextViewer.java:2795)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.setDocument(BuildConsoleViewer.java:148)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.setDocument(BuildConsolePage.java:171)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage$2.run(BuildConsolePage.java:203)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2020-02-09 13:36:27.521
+!MESSAGE Request for monitor: '_Application_26_Stellaris In-Circuit Debug Interface/CORTEX_M4_0_Stellaris In-Circuit Debug Interface/CORTEX_M4_0_BreakpointManager_Stellaris In-Circuit Debug Interface/CORTEX_M4_0_BreakpointManager_Breakpoint(1177)' resulted in an error.
+!SUBENTRY 1 com.ti.ccstudio.debug 4 10004 2020-02-09 13:36:27.521
+!MESSAGE Error enabling this function: There is no AET resource to support this job.
+!STACK 0
+com.ti.debug.engine.IBreakpointManager$BreakpointException: Error enabling this function: There is no AET resource to support this job.
+	at com.ti.debug.engine.impl.BreakpointManager.checkForException(BreakpointManager.java:60)
+	at com.ti.debug.engine.impl.BreakpointManager.enable(BreakpointManager.java:115)
+	at com.ti.ccstudio.debug.service.contexts.BreakpointManagerDMContext.dsEnabled(BreakpointManagerDMContext.java:720)
+	at com.ti.ccstudio.debug.service.contexts.BreakpointManagerDMContext.insertBreakpoint(BreakpointManagerDMContext.java:351)
+	at com.ti.ccstudio.debug.service.contexts.BreakpointManagerDMContext.insertBreakpoint(BreakpointManagerDMContext.java:315)
+	at com.ti.ccstudio.debug.service.BreakpointService.insertBreakpoint(BreakpointService.java:474)
+	at com.ti.ccstudio.debug.service.BreakpointService$8$1.handleCompleted(BreakpointService.java:597)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:312)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 4 372 2020-02-09 13:42:02.431
+!MESSAGE Project '20P14_ESP8266OPENWEATHERMAP' is not open.
+!STACK 0
+java.lang.Exception: Project '20P14_ESP8266OPENWEATHERMAP' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:39)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:35)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:207)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Resource.java:1168)
+	at com.ti.ccstudio.project.core.internal.build.ACommandLineGenerator.getMaxCommandLengthProperty(ACommandLineGenerator.java:273)
+	at com.ti.ccstudio.project.ui.views.internal.console.ConsoleViewDecorator$1.textChanged(ConsoleViewDecorator.java:102)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3320)
+	at org.eclipse.jface.text.TextViewer.initializeWidgetContents(TextViewer.java:3368)
+	at org.eclipse.jface.text.TextViewer.setVisibleDocument(TextViewer.java:3407)
+	at org.eclipse.jface.text.TextViewer.setDocument(TextViewer.java:2795)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleViewer.setDocument(BuildConsoleViewer.java:148)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.setDocument(BuildConsolePage.java:171)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage$2.run(BuildConsolePage.java:203)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3906)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3537)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+!SESSION 2020-02-09 13:42:12.225 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2020-02-09 13:42:16.076
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2020-02-09 13:42:16.078
+!MESSAGE debugServerDir=C:/ti/ccs901/ccs/ccs_base/DebugServer
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-02-09 13:42:31.636
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-02-09 13:42:31.647
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-02-09 13:42:31.647
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.ti.ccstudio.ui 1 0 2020-02-09 13:42:46.422
+!MESSAGE CCS IDE session started!
+	CCS build: 9.2.0.00013
+	CCS location: C:/ti/ccs901/ccs
+	Workspace location: E:/vu.t.linh204.work GD/Lop Anh Tuan/Microcontroller/Code Composer Studio/Board tm4c
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.729
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.730
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.731
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.733
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.733
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.738
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.744
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.751
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.756
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2020-02-09 13:42:46.784
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2020-02-09 13:42:46.957
+!MESSAGE CCS HTTP adapter started! [ccs.port:55739] - Open 'http://localhost:55739/ide' in web browser to see listing of available APIs...
