@@ -14,7 +14,7 @@
  <void id="ArrayList0" method="get">
   <object idref="SolutionManager$PersistState0"/>
   <void method="add">
-   <string>E:\vu.t.linh204.work GD\Lop Anh Tuan\Microcontroller\Code Composer Studio\Board tm4c\dvt\AnalysisSolutionsTemp\AnalysisSolution1581230554910\null</string>
+   <string>E:\vu.t.linh204.work GD\Lop Anh Tuan\Microcontroller\Code Composer Studio\Board tm4c\dvt\AnalysisSolutionsTemp\AnalysisSolution1581661769103\null</string>
   </void>
   <void method="add">
    <string>C:\ti\ccs901\ccs\ccs_base\dvt_4.1.0.201908221230\CodeGen\solutions\CodeGenCoverage</string>

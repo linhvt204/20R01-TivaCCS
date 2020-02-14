@@ -34,9 +34,8 @@ int main(void)
 
     while (1)
     {
-        //UARTprintf("Linh Coi");
         Float2UART(Haha);
-        UARTprintf("Linh coi ner\n");
+        UARTprintf("FutureENG1\n");
         delay_s(1);
     }
 }

@@ -80,8 +80,6 @@ void GetPeriodPWM(void)
         PF3PWMDen--;
     }
 
-    PF1PWMPeriod = 4;
-
     PF1PWMPeriod =
             (uint32_t) (((float) PF1PWMDen / (float) PWMNum) * PWMPeriod);
     PF2PWMPeriod =
